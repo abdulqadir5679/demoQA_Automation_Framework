@@ -28,8 +28,8 @@ export default defineConfig({
     /*  VISUAL EXECUTION */
     headless: false,
 
-    /* 🐢 SLOW DOWN ACTIONS (milliseconds) */
-    slow_mo: 6000,
+    /* SLOW DOWN ACTIONS (milliseconds) */
+    slowMo: 2000,
 
     /* Collect trace when retrying */
     trace: 'on-first-retry',
