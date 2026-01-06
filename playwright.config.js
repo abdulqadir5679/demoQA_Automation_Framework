@@ -29,7 +29,7 @@ export default defineConfig({
     headless: false,
 
     /* SLOW DOWN ACTIONS (milliseconds) */
-    slowMo: 2000,
+    slowMo: 500,
 
     /* Collect trace when retrying */
     trace: 'on-first-retry',
