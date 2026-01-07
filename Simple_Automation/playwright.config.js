@@ -46,7 +46,7 @@ export default defineConfig({
     //slowMo: 1000,
 
     // Collect trace when retrying 
-    trace: 'on-first-retry',,
+    trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
 
