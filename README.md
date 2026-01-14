@@ -1,3 +1,1 @@
 ﻿clone the repo and run git init
-
-this changes will be deleted
