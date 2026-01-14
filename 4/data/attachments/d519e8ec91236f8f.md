@@ -1,0 +1,67 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e10]
+    - generic [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]:
+            - img [ref=e22]
+            - text: Elements
+          - img [ref=e27]
+        - generic [ref=e33] [cursor=pointer]:
+          - generic [ref=e34]:
+            - img [ref=e36]
+            - text: Forms
+          - img [ref=e42]
+        - generic [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - text: Alerts, Frame & Windows
+          - img [ref=e56]
+        - generic [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]:
+            - img [ref=e65]
+            - text: Widgets
+          - img [ref=e70]
+        - generic [ref=e74]:
+          - generic [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - text: Interactions
+            - img [ref=e84]
+          - list [ref=e89]:
+            - listitem [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+              - generic [ref=e93]: Sortable
+            - listitem [ref=e94] [cursor=pointer]:
+              - img [ref=e95]
+              - generic [ref=e97]: Selectable
+            - listitem [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e101]: Resizable
+            - listitem [ref=e102] [cursor=pointer]:
+              - img [ref=e103]
+              - generic [ref=e105]: Droppable
+            - listitem [ref=e106] [cursor=pointer]:
+              - img [ref=e107]
+              - generic [ref=e109]: Dragabble
+        - generic [ref=e112] [cursor=pointer]:
+          - generic [ref=e113]:
+            - img [ref=e115]
+            - text: Book Store Application
+          - img [ref=e120]
+      - generic [ref=e125]:
+        - heading "Resizable" [level=1] [ref=e126]
+        - generic [ref=e129]: Resizable box, starting at 200x200. Min size is 150x150, max is 500x300.
+        - generic [ref=e133]: Resizable
+      - img "Build PlayWright tests with AI" [ref=e142] [cursor=pointer]
+    - contentinfo [ref=e143]:
+      - generic [ref=e144]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
