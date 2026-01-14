@@ -4,6 +4,8 @@ on:
   workflow_dispatch: # Allows manual run
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
     paths:
       - 'POM_Automation/**' # Triggers only when files in your project change
 
