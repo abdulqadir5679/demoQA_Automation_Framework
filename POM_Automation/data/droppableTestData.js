@@ -4,3 +4,4 @@ export const droppableTestData = {
     expectedClass: /ui-state-highlight/,
     waitTime: 3000
 };
+

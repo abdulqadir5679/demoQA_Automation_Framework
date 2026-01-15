@@ -50,17 +50,4 @@ test.describe('Alerts => Test Suite', () => {
         await page.click('#promtButton')
         await expect(page.locator('#promptResult')).toContainText('Abdul Qadir')
     })
-
-    test('Prompt Box Alert 2 dummy test need to remove after successful execution', async ({page}) => {
-        await page.goto('https://demoqa.com/alerts', {waitUntil: 'domcontentloaded'})
-
-        page.on('dialog', async (dialog) => {
-            expect(dialog.type()).toContain('prompt')
-            expect(dialog.message()).toContain('Please enter your name')
-            await dialog.accept('Abdul Qadir')
-        })
-        
-        await page.click('#promtButton')
-        await expect(page.locator('#promptResult')).toContainText('Abdul Qadir')
-    })
 })
