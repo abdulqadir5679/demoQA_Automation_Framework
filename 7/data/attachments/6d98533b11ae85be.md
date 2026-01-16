@@ -1,0 +1,172 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [active] [ref=f2e1]:
+        - generic [ref=f2e4]:
+          - generic [ref=f2e5]:
+            - generic "TechTarget" [ref=f2e6]:
+              - link "Deploy Laravel Google Cloud - Deploy Laravel Google Cloud" [ref=f2e8] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CyCNfzxJeadXaIZuY8uMP8IP1CJOh9IqEAfX069mJFZPE9P0IEAEgxvvWeWDL1LQFoAH85YT9A8gBAeACAKgDAcgDCqoEiwJP0B72NKvcjz2eu5DElLosWYJUx0APvf59eSsMd0LyjMYxg6eAtOo0R3PH9C9ilzj7FwsdRgr1dnWdrQKu3Xt9DaT-XWttXhFkyQGmd8HRmsQR76CRb_k0V-kXy1YQguZ0ha3f_0SizNafzykgX6-xRBkf_wX2SG3CYQ-GZaU42a4qBuiGwsrXh8A-ryqeAqHHzbZ_9uIfqgIs3ZPepSutaJ8o7ubIM2uAijHmXihf4pUaunsaJJ7aiooRNCQRzURXqQvcPv42-lxKbqFRwfzlF1tCRjIOaejCCHunfwhH2iz9YbGYewvEf1NgELd5WGGk6beVEunZzbrQMA-4Xs2YH2tgVVkUZiRee87ABLby1ITQBeAEAYgF9tCU7VagBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliW2pyU-_iRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJXz_Hi9G5CSKACgOYCwHICwGiDAwqCgoI1tqxAtbYsQLaDBAKChCA3MGk_9TRwQgSAgEDqg0CUEvIDQHiDRMIroudlPv4kQMVG4x8Bh3wQR0B6g0TCNfRnZT7-JEDFRuMfAYd8EEdAfANAogO____________AdgTAogUAdAVAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAwHf0QBIKNjE2ODU3NjUwNRgBshgJEgK4UBhmIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE&num=1&cid=CAQSswEAwksa0bl0ty-F6gb2ozqIxdFMeivTbqirTWIuKrd0VPQ8GaHzI7oCyTeN11bBHbMAzFntAbIrtaw1Sy3yvMUbVEyj1IAmLfm6TPV7hYZez7iuHiyYQGKSR20OVWfoI6aoFIRRipadBOd6j41AdN6wPdhulERzKb-zxsBmRxpYHiaxK6BpwVT3gAwjlZask2qMw3LKirJfSJgtb0Rl_IcUBwvLgHXsBXSrqBUeZ3gTjHqnDxgB&sig=AOD64_3G_F2Q480nG4-tOqvFqdlphg63Vg&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://www.techtarget.com/searchcloudcomputing/tip/Cloud-migration-benefits-to-know-before-making-the-move%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26utm_campaign%3DGoogle_ETO_sCC_NA%26Offer%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26uid%3D1%26gad_source%3D5%26gad_campaignid%3D23314376822%26gclid%3DEAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE
+                - text: Deploy Laravel Google Cloud - Deploy Laravel
+                - text: Google Cloud
+            - link "Explore cloud-to-cloud and hybrid migration strategies for seamless transitions. TechTarget" [ref=f2e10] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CyCNfzxJeadXaIZuY8uMP8IP1CJOh9IqEAfX069mJFZPE9P0IEAEgxvvWeWDL1LQFoAH85YT9A8gBAeACAKgDAcgDCqoEiwJP0B72NKvcjz2eu5DElLosWYJUx0APvf59eSsMd0LyjMYxg6eAtOo0R3PH9C9ilzj7FwsdRgr1dnWdrQKu3Xt9DaT-XWttXhFkyQGmd8HRmsQR76CRb_k0V-kXy1YQguZ0ha3f_0SizNafzykgX6-xRBkf_wX2SG3CYQ-GZaU42a4qBuiGwsrXh8A-ryqeAqHHzbZ_9uIfqgIs3ZPepSutaJ8o7ubIM2uAijHmXihf4pUaunsaJJ7aiooRNCQRzURXqQvcPv42-lxKbqFRwfzlF1tCRjIOaejCCHunfwhH2iz9YbGYewvEf1NgELd5WGGk6beVEunZzbrQMA-4Xs2YH2tgVVkUZiRee87ABLby1ITQBeAEAYgF9tCU7VagBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliW2pyU-_iRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJXz_Hi9G5CSKACgOYCwHICwGiDAwqCgoI1tqxAtbYsQLaDBAKChCA3MGk_9TRwQgSAgEDqg0CUEvIDQHiDRMIroudlPv4kQMVG4x8Bh3wQR0B6g0TCNfRnZT7-JEDFRuMfAYd8EEdAfANAogO____________AdgTAogUAdAVAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAwHf0QBIKNjE2ODU3NjUwNRgBshgJEgK4UBhmIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE&num=1&cid=CAQSswEAwksa0bl0ty-F6gb2ozqIxdFMeivTbqirTWIuKrd0VPQ8GaHzI7oCyTeN11bBHbMAzFntAbIrtaw1Sy3yvMUbVEyj1IAmLfm6TPV7hYZez7iuHiyYQGKSR20OVWfoI6aoFIRRipadBOd6j41AdN6wPdhulERzKb-zxsBmRxpYHiaxK6BpwVT3gAwjlZask2qMw3LKirJfSJgtb0Rl_IcUBwvLgHXsBXSrqBUeZ3gTjHqnDxgB&sig=AOD64_3G_F2Q480nG4-tOqvFqdlphg63Vg&client=ca-pub-4573231550355221&rf=4&nb=7&adurl=https://www.techtarget.com/searchcloudcomputing/tip/Cloud-migration-benefits-to-know-before-making-the-move%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26utm_campaign%3DGoogle_ETO_sCC_NA%26Offer%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26uid%3D1%26gad_source%3D5%26gad_campaignid%3D23314376822%26gclid%3DEAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE
+          - link "OPEN" [ref=f2e13] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CyCNfzxJeadXaIZuY8uMP8IP1CJOh9IqEAfX069mJFZPE9P0IEAEgxvvWeWDL1LQFoAH85YT9A8gBAeACAKgDAcgDCqoEiwJP0B72NKvcjz2eu5DElLosWYJUx0APvf59eSsMd0LyjMYxg6eAtOo0R3PH9C9ilzj7FwsdRgr1dnWdrQKu3Xt9DaT-XWttXhFkyQGmd8HRmsQR76CRb_k0V-kXy1YQguZ0ha3f_0SizNafzykgX6-xRBkf_wX2SG3CYQ-GZaU42a4qBuiGwsrXh8A-ryqeAqHHzbZ_9uIfqgIs3ZPepSutaJ8o7ubIM2uAijHmXihf4pUaunsaJJ7aiooRNCQRzURXqQvcPv42-lxKbqFRwfzlF1tCRjIOaejCCHunfwhH2iz9YbGYewvEf1NgELd5WGGk6beVEunZzbrQMA-4Xs2YH2tgVVkUZiRee87ABLby1ITQBeAEAYgF9tCU7VagBmaAB-yZ-wKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliW2pyU-_iRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJXz_Hi9G5CSKACgOYCwHICwGiDAwqCgoI1tqxAtbYsQLaDBAKChCA3MGk_9TRwQgSAgEDqg0CUEvIDQHiDRMIroudlPv4kQMVG4x8Bh3wQR0B6g0TCNfRnZT7-JEDFRuMfAYd8EEdAfANAogO____________AdgTAogUAdAVAcoWAgoA-BYBgBcBshcOGAEqCjYxNjg1NzY1MDW6FwI4AaoYFwkAAAAAwHf0QBIKNjE2ODU3NjUwNRgBshgJEgK4UBhmIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE&num=1&cid=CAQSswEAwksa0bl0ty-F6gb2ozqIxdFMeivTbqirTWIuKrd0VPQ8GaHzI7oCyTeN11bBHbMAzFntAbIrtaw1Sy3yvMUbVEyj1IAmLfm6TPV7hYZez7iuHiyYQGKSR20OVWfoI6aoFIRRipadBOd6j41AdN6wPdhulERzKb-zxsBmRxpYHiaxK6BpwVT3gAwjlZask2qMw3LKirJfSJgtb0Rl_IcUBwvLgHXsBXSrqBUeZ3gTjHqnDxgB&sig=AOD64_3G_F2Q480nG4-tOqvFqdlphg63Vg&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.techtarget.com/searchcloudcomputing/tip/Cloud-migration-benefits-to-know-before-making-the-move%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26utm_campaign%3DGoogle_ETO_sCC_NA%26Offer%3Dsy_lp11292025GOOGOTHR_GsidsCC_Google_essential_IO337994_LI2964486%26uid%3D1%26gad_source%3D5%26gad_campaignid%3D23314376822%26gclid%3DEAIaIQobChMIlf6dlPv4kQMVG4x8Bh3wQR0BEAEYASAAEgKaP_D_BwE
+            - generic [ref=f2e14]: OPEN
+            - img [ref=f2e15]
+        - generic [ref=f2e17]:
+          - link [ref=f2e19] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_6FgjEEXUUjukHD75LGSip4NKHGtJ-gVGNKgrHWZCgZWCnt-BA97eob5_tnTbI3a-XrAJ3pkCnxMU6tjCeRqwr3_2kaFx6lqdsZYYvTR_aVTrj1FGK4Y1Ql0vHg1BW92v4qjxbyPfD5IrbZyMpUS6RLrC4EsTDbHIyB9JuHMspFdQ0EtG8snWrU5Iy8nTHHwDkhYofbaSY11yWWm0E5f2QXUme0WurM7pT7hVJtp3EYQmNJxO1eRI61gaiqa9ucrI3U-_8MHzgKJ9YKjESsQJUf6k5aSRxw-D8SfGZJsE0rV5fYYmkgTQp3zHtVDQlQ6KYu6h3rNsPMTSpCygLsMJurmAU1yM37DYhqwVuiU-FaiFWHuq6HY8Q8seI_H53W-ZbgAaHkmElappAu55PhhaO-bpHai9iqifgbsl88VNv9GxhsLk1bCDW-DYh0wcewj0bRiPQR_mDIQsy3QvSUR6nkUliWS3EMs8CFhxRA4UQbWesQb-NhtxZV9Dkoeaugj5KAQFUBpSNsH-jT3k1hsO7b2vT7Mz90B8Xv8j_ZPC3emEdI11Vm81BT_sG3u3Gljijfgy1puutxbPu7VI0McM7rpbO2XEBoDQVZQGU4s-l-_9_0sIisP6CqXb4IBiSshJEVbGwSsqEGeb9KRRhkWCN9WMWwsmDqyV6WPy25ilFQM8vk7cdTjuFMEcYVwifI0UeKLRJpVwWNdmZsvPaAXbI2wN3TxkMHBdtt19KUVR-cEqZkWeXZIE2asL7-N1YL5fyM51tv5sHmrOW6TKXMgnfFEZkeoS1cRdTTnBGM6vkuKU0Qx8fbl1CDYO94plNAi7KEDxFu143d84eoB4O8-fFh9dIWGRWD7UGlMrAS_z4DQBQPvhi4rskmYEWlEiJx8mg7aFfTvow9PtBtihcwfw5E9wOLKeCt8ONKoJkhSPbW4HHae_pvHkCaHTEty9LIZfWwhEmPMOcJ60vfPu-lkOSgEfwbs5YXjREjUpgtvOsOac_Cy-HQH0OMF0odsAwTHysIWdR8rh29xKPw831WRf1j6ox-VbkMF0iCNZvEODg8vzFfyIiN0bABPKkMo8Ta3i-qAn3De25kdDQIywoFUfCkXARc63lO7IeMcGW7LZGiOjERjbwTRo9BQHEjCcY41HERMVRtNN0uu-sGGhN_UCoxIiSX8EU_WYc451ojdzqHHHsHUuc63oGhEj5hUC27sDQwL50SYJxC-ihcZqC5vNg5-ozsdeANKZ4YeUUHcjPmunnbwSQAtfNqSZuZugjTPxgRlQwVopGkRfi8_wAn1Vqtb0YeVjiBMO9BAMYu0P9m80pLjlCoiRQPgdzvIIabD0E0qoepzzfq8ci9VRVlP45J215ky8rhOoInJBGtyFO5NldNIzt8bUwYaM8I9SlwETl0KYL4aqDZUvRo4elormPflvfUguDHJCVJOMfRUeFbvvbbsSZ3F-2hZWuBXyvTmlkEuBZekeziz15cKEz1YItVVJDlYNxk8xdtjccfxujExH39h98l28ayqax7CK94iXoqYf1rchWEK-fOZcDsIvioSous_0EmyXzDO30MH3QEt0QOPbZ-cnm9gQyd1_-Oshqc59oX_vNMfkPJuWrGk2YRYfPB05BolkEZgbMlVRwO_DNqwWc93Mk5y8xIXlXpRjh5OMaFzl3PIiGuJrG42H7PpsIQVzEYUjGedvzASMmQeBpAjo2AA9HXYrPbjmrFv3HjBUjfthmmye1X6OB0Tiz3Ynu_GV0Bk6Eu8gWFKIx7Uedpk_d8TuajG4WnyLEtiO3trbGiWrIQL5LABXmdj_xms0qjrJR0sKlT6-8_NB_fhd-QJkGEfQ6_0whN6VIw5Tt1_TO3M6yb1a1iaiRhMmDmVE8v_PwkR-AEAuo41gWy9GCz5mbLTT29YS7wX8nRPj-v19LrJhDXCbiPHuCyB8biAIefTmEqTwlprl2_x1ydFnlqCWw1X7QBamM3KAfQ5PCU60EbO8nvifitJ1T8UmUafMYWMC0w0L2O6tvNtHCGbyspQvHoPYKOgdz5WCDJ_sy0v5SQAT8zQC0ciY9b1WHiMx3BmiEUFBXPk8XTxQaASPx2tmu5k-n0iP8QdtP4uKeaciNsrfsZL2bSVKFpRHg5ogpmyIXrSPrON17Sm00TO3F12Zoz7DgR2kaxFeuNyqZL0h9Po-Hua5a_WagugI0t-c9-2nUafpeDBCqx3uupxIw_u8e7-3hJs7D6lPg-ji67SsnSi0ig3NVOJtqayDE7FUlPRJpUPE282athbCK0gNnWbkbxgKgFWH6Z_ytvZ_RYmMBG9PTJ3ljCd65mz2c3wKEq1TSYk9VqwZXD22TpDUSX6o0WLWi2zDdg96bXP0awEmjliINRnZIjeiNLi7bpRkIBmvuDF_KEkQv18IVvWWDzpFSwA0TrEMwSD3jZYbh-njVq4Bf4jaEC8X8RR-emOKx-6oZt6A9R8v0TaRGITGg16_c0uvlKFjgibs9Q5xlLAcUpQFNFrCwGavMNElN-XKJcT9t0k1IVRK0CLOALI1dWait3gk_TuMXrukchnlbuOUzHc8w3o6ksKwik61NDKWMi3PrSu9gPYxp55IAl9rYjF90m0xo4RZpTwCvwBSAVhWalr2MMBbSulhbD7DrYcUkLOZLgZ9wk23zoypcBL2khnhB0Go7AGRqkfnaI8fB223SMHvGbcgpbDc25qAhSv8Rp9AodT6oA9vKMLb5MTRSA3tz35bWqIqdZcNihjQPZhLcJ-mW6IW9oDmZZzswYJiyMvqo&opi=122715837
+            - img [ref=f2e21]
+          - link [ref=f2e23] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_6FgjEEXUUjukHD75LGSip4NKHGtJ-gVGNKgrHWZCgZWCnt-BA97eob5_tnTbI3a-XrAJ3pkCnxMU6tjCeRqwr3_2kaFx6lqdsZYYvTR_aVTrj1FGK4Y1Ql0vHg1BW92v4qjxbyPfD5IrbZyMpUS6RLrC4EsTDbHIyB9JuHMspFdQ0EtG8snWrU5Iy8nTHHwDkhYofbaSY11yWWm0E5f2QXUme0WurM7pT7hVJtp3EYQmNJxO1eRI61gaiqa9ucrI3U-_8MHzgKJ9YKjESsQJUf6k5aSRxw-D8SfGZJsE0rV5fYYmkgTQp3zHtVDQlQ6KYu6h3rNsPMTSpCygLsMJurmAU1yM37DYhqwVuiU-FaiFWHuq6HY8Q8seI_H53W-ZbgAaHkmElappAu55PhhaO-bpHai9iqifgbsl88VNv9GxhsLk1bCDW-DYh0wcewj0bRiPQR_mDIQsy3QvSUR6nkUliWS3EMs8CFhxRA4UQbWesQb-NhtxZV9Dkoeaugj5KAQFUBpSNsH-jT3k1hsO7b2vT7Mz90B8Xv8j_ZPC3emEdI11Vm81BT_sG3u3Gljijfgy1puutxbPu7VI0McM7rpbO2XEBoDQVZQGU4s-l-_9_0sIisP6CqXb4IBiSshJEVbGwSsqEGeb9KRRhkWCN9WMWwsmDqyV6WPy25ilFQM8vk7cdTjuFMEcYVwifI0UeKLRJpVwWNdmZsvPaAXbI2wN3TxkMHBdtt19KUVR-cEqZkWeXZIE2asL7-N1YL5fyM51tv5sHmrOW6TKXMgnfFEZkeoS1cRdTTnBGM6vkuKU0Qx8fbl1CDYO94plNAi7KEDxFu143d84eoB4O8-fFh9dIWGRWD7UGlMrAS_z4DQBQPvhi4rskmYEWlEiJx8mg7aFfTvow9PtBtihcwfw5E9wOLKeCt8ONKoJkhSPbW4HHae_pvHkCaHTEty9LIZfWwhEmPMOcJ60vfPu-lkOSgEfwbs5YXjREjUpgtvOsOac_Cy-HQH0OMF0odsAwTHysIWdR8rh29xKPw831WRf1j6ox-VbkMF0iCNZvEODg8vzFfyIiN0bABPKkMo8Ta3i-qAn3De25kdDQIywoFUfCkXARc63lO7IeMcGW7LZGiOjERjbwTRo9BQHEjCcY41HERMVRtNN0uu-sGGhN_UCoxIiSX8EU_WYc451ojdzqHHHsHUuc63oGhEj5hUC27sDQwL50SYJxC-ihcZqC5vNg5-ozsdeANKZ4YeUUHcjPmunnbwSQAtfNqSZuZugjTPxgRlQwVopGkRfi8_wAn1Vqtb0YeVjiBMO9BAMYu0P9m80pLjlCoiRQPgdzvIIabD0E0qoepzzfq8ci9VRVlP45J215ky8rhOoInJBGtyFO5NldNIzt8bUwYaM8I9SlwETl0KYL4aqDZUvRo4elormPflvfUguDHJCVJOMfRUeFbvvbbsSZ3F-2hZWuBXyvTmlkEuBZekeziz15cKEz1YItVVJDlYNxk8xdtjccfxujExH39h98l28ayqax7CK94iXoqYf1rchWEK-fOZcDsIvioSous_0EmyXzDO30MH3QEt0QOPbZ-cnm9gQyd1_-Oshqc59oX_vNMfkPJuWrGk2YRYfPB05BolkEZgbMlVRwO_DNqwWc93Mk5y8xIXlXpRjh5OMaFzl3PIiGuJrG42H7PpsIQVzEYUjGedvzASMmQeBpAjo2AA9HXYrPbjmrFv3HjBUjfthmmye1X6OB0Tiz3Ynu_GV0Bk6Eu8gWFKIx7Uedpk_d8TuajG4WnyLEtiO3trbGiWrIQL5LABXmdj_xms0qjrJR0sKlT6-8_NB_fhd-QJkGEfQ6_0whN6VIw5Tt1_TO3M6yb1a1iaiRhMmDmVE8v_PwkR-AEAuo41gWy9GCz5mbLTT29YS7wX8nRPj-v19LrJhDXCbiPHuCyB8biAIefTmEqTwlprl2_x1ydFnlqCWw1X7QBamM3KAfQ5PCU60EbO8nvifitJ1T8UmUafMYWMC0w0L2O6tvNtHCGbyspQvHoPYKOgdz5WCDJ_sy0v5SQAT8zQC0ciY9b1WHiMx3BmiEUFBXPk8XTxQaASPx2tmu5k-n0iP8QdtP4uKeaciNsrfsZL2bSVKFpRHg5ogpmyIXrSPrON17Sm00TO3F12Zoz7DgR2kaxFeuNyqZL0h9Po-Hua5a_WagugI0t-c9-2nUafpeDBCqx3uupxIw_u8e7-3hJs7D6lPg-ji67SsnSi0ig3NVOJtqayDE7FUlPRJpUPE282athbCK0gNnWbkbxgKgFWH6Z_ytvZ_RYmMBG9PTJ3ljCd65mz2c3wKEq1TSYk9VqwZXD22TpDUSX6o0WLWi2zDdg96bXP0awEmjliINRnZIjeiNLi7bpRkIBmvuDF_KEkQv18IVvWWDzpFSwA0TrEMwSD3jZYbh-njVq4Bf4jaEC8X8RR-emOKx-6oZt6A9R8v0TaRGITGg16_c0uvlKFjgibs9Q5xlLAcUpQFNFrCwGavMNElN-XKJcT9t0k1IVRK0CLOALI1dWait3gk_TuMXrukchnlbuOUzHc8w3o6ksKwik61NDKWMi3PrSu9gPYxp55IAl9rYjF90m0xo4RZpTwCvwBSAVhWalr2MMBbSulhbD7DrYcUkLOZLgZ9wk23zoypcBL2khnhB0Go7AGRqkfnaI8fB223SMHvGbcgpbDc25qAhSv8Rp9AodT6oA9vKMLb5MTRSA3tz35bWqIqdZcNihjQPZhLcJ-mW6IW9oDmZZzswYJiyMvqo&opi=122715837
+            - img [ref=f2e25]
+        - img [ref=f2e28] [cursor=pointer]
+        - generic [ref=f2e39]:
+          - img [ref=f2e42]
+          - generic [ref=f2e45]:
+            - text: Ads by
+            - img [ref=f2e46]
+          - generic [ref=f2e49]:
+            - generic [ref=f2e52] [cursor=pointer]: Ad options
+            - generic [ref=f2e55] [cursor=pointer]: Send feedback
+            - link [ref=f2e57] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_6FgjEEXUUjukHD75LGSip4NKHGtJ-gVGNKgrHWZCgZWCnt-BA97eob5_tnTbI3a-XrAJ3pkCnxMU6tjCeRqwr3_2kaFx6lqdsZYYvTR_aVTrj1FGK4Y1Ql0vHg1BW92v4qjxbyPfD5IrbZyMpUS6RLrC4EsTDbHIyB9JuHMspFdQ0EtG8snWrU5Iy8nTHHwDkhYofbaSY11yWWm0E5f2QXUme0WurM7pT7hVJtp3EYQmNJxO1eRI61gaiqa9ucrI3U-_8MHzgKJ9YKjESsQJUf6k5aSRxw-D8SfGZJsE0rV5fYYmkgTQp3zHtVDQlQ6KYu6h3rNsPMTSpCygLsMJurmAU1yM37DYhqwVuiU-FaiFWHuq6HY8Q8seI_H53W-ZbgAaHkmElappAu55PhhaO-bpHai9iqifgbsl88VNv9GxhsLk1bCDW-DYh0wcewj0bRiPQR_mDIQsy3QvSUR6nkUliWS3EMs8CFhxRA4UQbWesQb-NhtxZV9Dkoeaugj5KAQFUBpSNsH-jT3k1hsO7b2vT7Mz90B8Xv8j_ZPC3emEdI11Vm81BT_sG3u3Gljijfgy1puutxbPu7VI0McM7rpbO2XEBoDQVZQGU4s-l-_9_0sIisP6CqXb4IBiSshJEVbGwSsqEGeb9KRRhkWCN9WMWwsmDqyV6WPy25ilFQM8vk7cdTjuFMEcYVwifI0UeKLRJpVwWNdmZsvPaAXbI2wN3TxkMHBdtt19KUVR-cEqZkWeXZIE2asL7-N1YL5fyM51tv5sHmrOW6TKXMgnfFEZkeoS1cRdTTnBGM6vkuKU0Qx8fbl1CDYO94plNAi7KEDxFu143d84eoB4O8-fFh9dIWGRWD7UGlMrAS_z4DQBQPvhi4rskmYEWlEiJx8mg7aFfTvow9PtBtihcwfw5E9wOLKeCt8ONKoJkhSPbW4HHae_pvHkCaHTEty9LIZfWwhEmPMOcJ60vfPu-lkOSgEfwbs5YXjREjUpgtvOsOac_Cy-HQH0OMF0odsAwTHysIWdR8rh29xKPw831WRf1j6ox-VbkMF0iCNZvEODg8vzFfyIiN0bABPKkMo8Ta3i-qAn3De25kdDQIywoFUfCkXARc63lO7IeMcGW7LZGiOjERjbwTRo9BQHEjCcY41HERMVRtNN0uu-sGGhN_UCoxIiSX8EU_WYc451ojdzqHHHsHUuc63oGhEj5hUC27sDQwL50SYJxC-ihcZqC5vNg5-ozsdeANKZ4YeUUHcjPmunnbwSQAtfNqSZuZugjTPxgRlQwVopGkRfi8_wAn1Vqtb0YeVjiBMO9BAMYu0P9m80pLjlCoiRQPgdzvIIabD0E0qoepzzfq8ci9VRVlP45J215ky8rhOoInJBGtyFO5NldNIzt8bUwYaM8I9SlwETl0KYL4aqDZUvRo4elormPflvfUguDHJCVJOMfRUeFbvvbbsSZ3F-2hZWuBXyvTmlkEuBZekeziz15cKEz1YItVVJDlYNxk8xdtjccfxujExH39h98l28ayqax7CK94iXoqYf1rchWEK-fOZcDsIvioSous_0EmyXzDO30MH3QEt0QOPbZ-cnm9gQyd1_-Oshqc59oX_vNMfkPJuWrGk2YRYfPB05BolkEZgbMlVRwO_DNqwWc93Mk5y8xIXlXpRjh5OMaFzl3PIiGuJrG42H7PpsIQVzEYUjGedvzASMmQeBpAjo2AA9HXYrPbjmrFv3HjBUjfthmmye1X6OB0Tiz3Ynu_GV0Bk6Eu8gWFKIx7Uedpk_d8TuajG4WnyLEtiO3trbGiWrIQL5LABXmdj_xms0qjrJR0sKlT6-8_NB_fhd-QJkGEfQ6_0whN6VIw5Tt1_TO3M6yb1a1iaiRhMmDmVE8v_PwkR-AEAuo41gWy9GCz5mbLTT29YS7wX8nRPj-v19LrJhDXCbiPHuCyB8biAIefTmEqTwlprl2_x1ydFnlqCWw1X7QBamM3KAfQ5PCU60EbO8nvifitJ1T8UmUafMYWMC0w0L2O6tvNtHCGbyspQvHoPYKOgdz5WCDJ_sy0v5SQAT8zQC0ciY9b1WHiMx3BmiEUFBXPk8XTxQaASPx2tmu5k-n0iP8QdtP4uKeaciNsrfsZL2bSVKFpRHg5ogpmyIXrSPrON17Sm00TO3F12Zoz7DgR2kaxFeuNyqZL0h9Po-Hua5a_WagugI0t-c9-2nUafpeDBCqx3uupxIw_u8e7-3hJs7D6lPg-ji67SsnSi0ig3NVOJtqayDE7FUlPRJpUPE282athbCK0gNnWbkbxgKgFWH6Z_ytvZ_RYmMBG9PTJ3ljCd65mz2c3wKEq1TSYk9VqwZXD22TpDUSX6o0WLWi2zDdg96bXP0awEmjliINRnZIjeiNLi7bpRkIBmvuDF_KEkQv18IVvWWDzpFSwA0TrEMwSD3jZYbh-njVq4Bf4jaEC8X8RR-emOKx-6oZt6A9R8v0TaRGITGg16_c0uvlKFjgibs9Q5xlLAcUpQFNFrCwGavMNElN-XKJcT9t0k1IVRK0CLOALI1dWait3gk_TuMXrukchnlbuOUzHc8w3o6ksKwik61NDKWMi3PrSu9gPYxp55IAl9rYjF90m0xo4RZpTwCvwBSAVhWalr2MMBbSulhbD7DrYcUkLOZLgZ9wk23zoypcBL2khnhB0Go7AGRqkfnaI8fB223SMHvGbcgpbDc25qAhSv8Rp9AodT6oA9vKMLb5MTRSA3tz35bWqIqdZcNihjQPZhLcJ-mW6IW9oDmZZzswYJiyMvqo&opi=122715837
+              - generic [ref=f2e58]:
+                - text: Why this ad?
+                - img [ref=f2e59]
+        - generic [ref=f2e61]:
+          - generic [ref=f2e64] [cursor=pointer]: Not interested in this ad
+          - generic [ref=f2e67] [cursor=pointer]: Seen this ad multiple times
+          - generic [ref=f2e70] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f2e73] [cursor=pointer]: Ad covered content
+        - generic [ref=f2e79]: Thanks. Feedback improves Google ads
+        - generic [ref=f2e85]:
+          - text: Ad closed by
+          - img [ref=f2e86]
+        - generic [ref=f2e93]:
+          - img [ref=f2e96]
+          - generic [ref=f2e98]:
+            - generic [ref=f2e100]: Personalize ads on this site
+            - link [ref=f2e104] [cursor=pointer]:
+              - /url: https://support.google.com/ads/answer/10923348
+              - generic [ref=f2e105]:
+                - text: Learn more
+                - img [ref=f2e106]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - text: Elements
+            - img [ref=e30]
+          - list [ref=e35]:
+            - listitem [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e39]: Text Box
+            - listitem [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e43]: Check Box
+            - listitem [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+              - generic [ref=e47]: Radio Button
+            - listitem [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e51]: Web Tables
+            - listitem [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e55]: Buttons
+            - listitem [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Links
+            - listitem [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e63]: Broken Links - Images
+            - listitem [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Upload and Download
+            - listitem [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Dynamic Properties
+        - generic [ref=e74] [cursor=pointer]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - text: Forms
+          - img [ref=e83]
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - text: Alerts, Frame & Windows
+          - img [ref=e97]
+        - generic [ref=e103] [cursor=pointer]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - text: Widgets
+          - img [ref=e111]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e143]:
+        - iframe [ref=e146]:
+          
+        - generic [ref=e147]:
+          - heading "Links" [level=1] [ref=e148]
+          - heading "Following links will open new tab" [level=5] [ref=e149]:
+            - strong [ref=e150]: Following links will open new tab
+          - paragraph [ref=e151]:
+            - link "Home" [ref=e152] [cursor=pointer]:
+              - /url: https://demoqa.com
+          - paragraph [ref=e153]:
+            - link "HomebaFS8" [ref=e154] [cursor=pointer]:
+              - /url: https://demoqa.com
+          - heading "Following links will send an api call" [level=5] [ref=e155]:
+            - strong [ref=e156]: Following links will send an api call
+          - paragraph [ref=e157]:
+            - link "Created" [ref=e158] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e159]:
+            - link "No Content" [ref=e160] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e161]:
+            - link "Moved" [ref=e162] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e163]:
+            - link "Bad Request" [active] [ref=e164] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e165]:
+            - link "Unauthorized" [ref=e166] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e167]:
+            - link "Forbidden" [ref=e168] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e169]:
+            - link "Not Found" [ref=e170] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - paragraph [ref=e171]: Link has responded with staus 400 and status text Bad Request
+        - iframe [ref=e175]:
+          
+      - generic [ref=e180]:
+        - img "Build PlayWright tests with AI" [ref=e182] [cursor=pointer]
+        - iframe [ref=e185]:
+          
+    - contentinfo [ref=e186]:
+      - generic [ref=e187]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```

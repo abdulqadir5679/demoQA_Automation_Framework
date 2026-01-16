@@ -1,0 +1,241 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [active] [ref=f4e1]:
+        - generic [ref=f4e3]:
+          - link [ref=f4e4] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cf19l1yZead-BFISbt_gPyZPz-AX4oYaAhAH74aeD9BOZuNjAkkYQASDG-9Z5YMvUtAWgAZ_lqbIDyAEJ4AIAqAMByAMKqgT_AU_Q3zOyTgZIcH5nZ6ILdF9CsBDFb4p4ct5sd_PL_GTOoHIY0aKCWEJN3i-ZKdnbj61ZL6SSgAMfs7Ytj5l40cFUdY5lF8E4aivS__zYWhEV9glYUPTG3oBp5jUaS7qpi8Uvf2ltiscJkFJqHU2l1VkJZkzerUu4u2PHEMFf85qz8eikfR2tpcNt7lw7cROUzaxJSTCBp8xZLTM7TvNmsl1FkmLDDz3hSUo9YHKNKgb2dR6lh5NH7qqkEZnVEWS9H-QlRr0iUB66vGflX4py2lND-XN2EyURF6nz7qtX-r-2pMGBraErzl7Mdmpq47-EfT0Xvc9Cui52PTElgQONesAE06zzh6oF4AQBiAWDle64U6AGLoAH_93H_ASoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljrkauhjvmRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJqVGDSYUXC7CACgOYCwHICwGADAGiDAOQAQHaDBEKCxCgvbqL55eJlYYBEgIBA6oNAlBLyA0B4g0TCJ29q6GO-ZEDFYTNDQkdyckcX-oNEwjZnqyhjvmRAxWEzQ0JHcnJHF_wDQKIDv___________wG4E-QD2BMNiBQD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAopgZBEgo2MTY4NTc2NTA1GAGyGAkSAr5QGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE&num=1&cid=CAQSsgEAwksa0f4c-UGEsSyPsCvRt0Ul4_qOZJ2YYQQlkvx8osOPhqeVZSc3Vv2gLLWQdwjYObmIXIHm3P76fph0DEjup_lbhAVm3EeZxSLeDLupuk0ONVXyglMZ_2E6oMc22t0QZSP_r8SNRqvpOS_JON_HBp9v6iikxjzWiD6CD71qqixs5baK01Y7VU37qLrV0hJjCLXhUsVWnVKK57bk2Y9NgOxL0UlG-YeGxL0Tb75AxHpnGAE&sig=AOD64_134cSqUtCOFu3ippf1ki9QM7a4pw&client=ca-pub-4573231550355221&rf=4&nb=9&adurl=https://octopart.com/bom-tool%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dg_cpc_apac-pk_display_bomv2_english_en_usd_bom-sqr%26gad_source%3D5%26gad_campaignid%3D22399388291%26gclid%3DEAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE
+            - img [ref=f4e5]
+          - link [ref=f4e7] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cf19l1yZead-BFISbt_gPyZPz-AX4oYaAhAH74aeD9BOZuNjAkkYQASDG-9Z5YMvUtAWgAZ_lqbIDyAEJ4AIAqAMByAMKqgT_AU_Q3zOyTgZIcH5nZ6ILdF9CsBDFb4p4ct5sd_PL_GTOoHIY0aKCWEJN3i-ZKdnbj61ZL6SSgAMfs7Ytj5l40cFUdY5lF8E4aivS__zYWhEV9glYUPTG3oBp5jUaS7qpi8Uvf2ltiscJkFJqHU2l1VkJZkzerUu4u2PHEMFf85qz8eikfR2tpcNt7lw7cROUzaxJSTCBp8xZLTM7TvNmsl1FkmLDDz3hSUo9YHKNKgb2dR6lh5NH7qqkEZnVEWS9H-QlRr0iUB66vGflX4py2lND-XN2EyURF6nz7qtX-r-2pMGBraErzl7Mdmpq47-EfT0Xvc9Cui52PTElgQONesAE06zzh6oF4AQBiAWDle64U6AGLoAH_93H_ASoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljrkauhjvmRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJqVGDSYUXC7CACgOYCwHICwGADAGiDAOQAQHaDBEKCxCgvbqL55eJlYYBEgIBA6oNAlBLyA0B4g0TCJ29q6GO-ZEDFYTNDQkdyckcX-oNEwjZnqyhjvmRAxWEzQ0JHcnJHF_wDQKIDv___________wG4E-QD2BMNiBQD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAopgZBEgo2MTY4NTc2NTA1GAGyGAkSAr5QGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE&num=1&cid=CAQSsgEAwksa0f4c-UGEsSyPsCvRt0Ul4_qOZJ2YYQQlkvx8osOPhqeVZSc3Vv2gLLWQdwjYObmIXIHm3P76fph0DEjup_lbhAVm3EeZxSLeDLupuk0ONVXyglMZ_2E6oMc22t0QZSP_r8SNRqvpOS_JON_HBp9v6iikxjzWiD6CD71qqixs5baK01Y7VU37qLrV0hJjCLXhUsVWnVKK57bk2Y9NgOxL0UlG-YeGxL0Tb75AxHpnGAE&sig=AOD64_134cSqUtCOFu3ippf1ki9QM7a4pw&client=ca-pub-4573231550355221&rf=4&nb=19&adurl=https://octopart.com/bom-tool%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dg_cpc_apac-pk_display_bomv2_english_en_usd_bom-sqr%26gad_source%3D5%26gad_campaignid%3D22399388291%26gclid%3DEAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE
+            - img [ref=f4e8]
+          - link "Source Your BOM in Seconds" [ref=f4e11] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cf19l1yZead-BFISbt_gPyZPz-AX4oYaAhAH74aeD9BOZuNjAkkYQASDG-9Z5YMvUtAWgAZ_lqbIDyAEJ4AIAqAMByAMKqgT_AU_Q3zOyTgZIcH5nZ6ILdF9CsBDFb4p4ct5sd_PL_GTOoHIY0aKCWEJN3i-ZKdnbj61ZL6SSgAMfs7Ytj5l40cFUdY5lF8E4aivS__zYWhEV9glYUPTG3oBp5jUaS7qpi8Uvf2ltiscJkFJqHU2l1VkJZkzerUu4u2PHEMFf85qz8eikfR2tpcNt7lw7cROUzaxJSTCBp8xZLTM7TvNmsl1FkmLDDz3hSUo9YHKNKgb2dR6lh5NH7qqkEZnVEWS9H-QlRr0iUB66vGflX4py2lND-XN2EyURF6nz7qtX-r-2pMGBraErzl7Mdmpq47-EfT0Xvc9Cui52PTElgQONesAE06zzh6oF4AQBiAWDle64U6AGLoAH_93H_ASoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljrkauhjvmRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJqVGDSYUXC7CACgOYCwHICwGADAGiDAOQAQHaDBEKCxCgvbqL55eJlYYBEgIBA6oNAlBLyA0B4g0TCJ29q6GO-ZEDFYTNDQkdyckcX-oNEwjZnqyhjvmRAxWEzQ0JHcnJHF_wDQKIDv___________wG4E-QD2BMNiBQD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAopgZBEgo2MTY4NTc2NTA1GAGyGAkSAr5QGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE&num=1&cid=CAQSsgEAwksa0f4c-UGEsSyPsCvRt0Ul4_qOZJ2YYQQlkvx8osOPhqeVZSc3Vv2gLLWQdwjYObmIXIHm3P76fph0DEjup_lbhAVm3EeZxSLeDLupuk0ONVXyglMZ_2E6oMc22t0QZSP_r8SNRqvpOS_JON_HBp9v6iikxjzWiD6CD71qqixs5baK01Y7VU37qLrV0hJjCLXhUsVWnVKK57bk2Y9NgOxL0UlG-YeGxL0Tb75AxHpnGAE&sig=AOD64_134cSqUtCOFu3ippf1ki9QM7a4pw&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://octopart.com/bom-tool%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dg_cpc_apac-pk_display_bomv2_english_en_usd_bom-sqr%26gad_source%3D5%26gad_campaignid%3D22399388291%26gclid%3DEAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE
+          - link "Open" [ref=f4e14] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cf19l1yZead-BFISbt_gPyZPz-AX4oYaAhAH74aeD9BOZuNjAkkYQASDG-9Z5YMvUtAWgAZ_lqbIDyAEJ4AIAqAMByAMKqgT_AU_Q3zOyTgZIcH5nZ6ILdF9CsBDFb4p4ct5sd_PL_GTOoHIY0aKCWEJN3i-ZKdnbj61ZL6SSgAMfs7Ytj5l40cFUdY5lF8E4aivS__zYWhEV9glYUPTG3oBp5jUaS7qpi8Uvf2ltiscJkFJqHU2l1VkJZkzerUu4u2PHEMFf85qz8eikfR2tpcNt7lw7cROUzaxJSTCBp8xZLTM7TvNmsl1FkmLDDz3hSUo9YHKNKgb2dR6lh5NH7qqkEZnVEWS9H-QlRr0iUB66vGflX4py2lND-XN2EyURF6nz7qtX-r-2pMGBraErzl7Mdmpq47-EfT0Xvc9Cui52PTElgQONesAE06zzh6oF4AQBiAWDle64U6AGLoAH_93H_ASoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwDSCC8IgGEQARidATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljrkauhjvmRA_IIG2FkeC1zdWJzeW4tMzUyMDYxNzM0MTY2NTU5MrEJqVGDSYUXC7CACgOYCwHICwGADAGiDAOQAQHaDBEKCxCgvbqL55eJlYYBEgIBA6oNAlBLyA0B4g0TCJ29q6GO-ZEDFYTNDQkdyckcX-oNEwjZnqyhjvmRAxWEzQ0JHcnJHF_wDQKIDv___________wG4E-QD2BMNiBQD0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAAAopgZBEgo2MTY4NTc2NTA1GAGyGAkSAr5QGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE&num=1&cid=CAQSsgEAwksa0f4c-UGEsSyPsCvRt0Ul4_qOZJ2YYQQlkvx8osOPhqeVZSc3Vv2gLLWQdwjYObmIXIHm3P76fph0DEjup_lbhAVm3EeZxSLeDLupuk0ONVXyglMZ_2E6oMc22t0QZSP_r8SNRqvpOS_JON_HBp9v6iikxjzWiD6CD71qqixs5baK01Y7VU37qLrV0hJjCLXhUsVWnVKK57bk2Y9NgOxL0UlG-YeGxL0Tb75AxHpnGAE&sig=AOD64_134cSqUtCOFu3ippf1ki9QM7a4pw&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://octopart.com/bom-tool%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dg_cpc_apac-pk_display_bomv2_english_en_usd_bom-sqr%26gad_source%3D5%26gad_campaignid%3D22399388291%26gclid%3DEAIaIQobChMIn8msoY75kQMVhM0NCR3JyRxfEAEYASAAEgI3dfD_BwE
+            - generic [ref=f4e16]: Open
+        - generic [ref=f4e18]:
+          - link [ref=f4e20] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_5lKAeWMfbyQ0BKnLxo0mjb9tvtrG1WcoY9eBD7PoH-32vBHV-AUC2q8mQTkNyqn_4MA-zd54K6jOoDcaj8dPJPYlPdU2GQSf_HP7mUclnD-sBDzLAamKVYzi0OHekcgSovJuZak3JbIuS_SIG7E8NECvb31kI0UnZzq6WrGNQL8qMRK3LBd636WTiofGR5Pr9p1CsfOt8LExXoaHipb_Mhf4ujAz21yRQwm8LswzLBscnOZHHLmkWn6uaTM7oxrYhTwoOomTPLbhRnhqwa15ol_l4fQ6dVTNpnWk9DFq6gKr5wgjWl32SIT9gW4uzdqpKz2XWVyDNOJZ8dAFb053O_Y_6LtuDOQG0r9CQ9B8g1bT36MYjuClf0UwaDD3mmu-IETbbFNCyYBRGSRn01M-M1y3NpDQoZr0glAlLN_qF-g8iVgugUtTsbyUNtynl6xJUSr4lck28TiZ2wFa8Y3UYbTV5JwveiKxcxFL72uNCWtJFXv8fJlj8Tvyk-Bw9IbIJaaIpBJgZjK3KmIhCcU7VarUUUZRfNa-5BUpu_p2fFYwhVlAd4JJl93jTchuLXzj_Qvz3f0Afh7Mja9x_P6lYi2WIB-jFgZ16WtMhh5PHkgwOxF1YzmF4ChGolu9BvXXqYux0dkoI5_r5lqwsYYQkQOnmUwH-VxLuyUicxyMPOKe_k9-QBeP8_v7GSDZdB_Pd0dcqrbFPECOE_jpFcEk0l9InEfFYtYG0zNGKer8ddAT9CpvQb0si5HwAxlRQRAyLptjDVzFIXyaEPemJTKeFFwJMTpDa2gKrMorYvJGVDPp7x95RDljQgShtPTFqGFrgF_mYAFjyOv8DzUbDVKof5knoTxBr6CsDaRxM5I9epuD4UxjWf9YwSwhKvl2p01EknEyWtJImNmMFfr7up-ng9M3hoeKqVF-1ABV_BlSniujwV-9mfKgP0zXXqtuluwj955U6YLp2ndd7opG7jXVz002Y1bws7oJvjWQqf20gquSebSYz5HHJ4RSqu2ev5EOc9_VeOHXFm4gYttLdHt1wRnbleiLez_8hYTPhmIPiqk0JlAPHmA8JvPaPy517tMOw8uKEsWOBFQbcjKBfA0n4wpo9E3K11vis0Z4uc3ewdwJcLd-fes85zSNL4zFcGr6ndbC2-HZjYsG_B3OvYofAGchhsAqppDjc4k3GZDL-n4kFLVLTU7ab50m1o5_4VWcwDlKwvMz83LZa4p9HcgATTq6g5jAGHSArNbfGDCoMdHAu89Qk098cvHo0bj5tViByEUCSD8S_iFeP_8p68rFCo0hV6W81UlSlTVhaz2fbExOY3DzODiMnvgCze5mZPPq7u7t1MkdKj9aIK_il7PwJgdwlzy4Ws5Ji15zXSZZwM9ZlFgT5ByEz1t2DCt2UAMjTQzeAhSdisMbIOHGoVw6OfJscSa16rR4fUKz5oKc9RQufhGI-43XlFvq_945JrAQdIGCZclGDNq1A-IX8xCLieZ3Ve-wbYDnMxEet5bVFHOOmIl-p7YNsP_VQ5eeIwPOdfCiIeCFUkhxV0UnE6WNXywXh5uYkySN-G5Q8pUzhuhDn35OvpXFm7XXBDOJqxYDGSUuUMeNkez9ZK2YN_65_-5oLAAtXKMjY1N19xm4E0UuOENYDIT5zaLK_G7HaEE8RPZ9HC6BVM_ZyA_wcuF-ezsXuNitcG29PLz4TJs_ax4JFu3QE4tIVrLN91QPoQbwOpAPkqI-jv2EhgPMTAnvSza-5pxChyOPY2S1YQHTW9lD2eAlBm8W28DZ9KAqQ3JF-h9FC9W-nvy33oocRq9sVZqYfXMeUbccOCAYaQHn0uPtcj6S_VJW_Pzn61RqseemFjYp6J0xS6N7aPU6yG8YkeJPZhcSq0uk_d3rNFMGsYxQ35vJyBzw-LrBizgcjoaFys6lmsgCTc5AYfHfDihgiAmm__Ki4Azhpvp885fngUEYEog4quUc8QdWlqO1F7dCrIaQKWn9kH8JDUCvaAOFPiQWkF2XyYJT9BnGWjtpyeEe7Gw26GBrj4s5EwEJVyLCHsLpw_coapZCjMLmYqjF89enZCaPrMgXOtOScm7TlmEDtaC2fQDWY16hD7wvDkU6WAr7cp9RvaC1Fp4t2YOlqaWqXbGkB45spPhy48mD6Lp5CFhCxCbEMN7D-_YY1I7OsBcuGeAXkOHZp-Qy6I_6qf5aMq8DwBH--czq2wqJQgerMHvmNoiS8tmlXvy1lj7jcJgHt7PR02LQbpJgK-JOwrr8w87QTY0gTzvUMudegH0DdL06hGcIcHDdOP205dhzF6oOhPrn4Ldnqx2Z-Jzv7RAQVzZ68xiIJLgp-aAt1Cy-PtiFGodiRsrJKGat1WfLloKtiXKbNk9cXNxmm4iUJg54Fs7OmpflmVvCJowUZcA8JdRucccGy8WjSojsiv_bwV49xHwsuFF1tzREwW4gGhY7JIRb5fQhflZm0oXNhVpqnUlBceHkXq2CIZrf3rL4gfYO91PeBNcYR43FM2p48J0RzTWX9f0DGyhO8nrXg2sGnhzYwPYW2CNPYgO7gcWBmNYo4s89lgNcx1kf61VlMEtcMcmhlkyOZsT-0GpxOEs9fMV15hyyFce5kg8mt1WvP5h7JfLjC6dxQ1VUuWt0wSC77FSHdiiJmCfk1_djsqOb9Y9GaN7ZTelkSCejZbhn0Lc0NnSDUeAF4npaYOa1_qJcr94vexUibXnp-xVerM2NxUq0FL6gwHwxJFFExlBQfPtakgnaZ4tlm3Ihq3at4BV9EnCWgfrT0&opi=122715837
+            - img [ref=f4e22]
+          - link [ref=f4e24] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_5lKAeWMfbyQ0BKnLxo0mjb9tvtrG1WcoY9eBD7PoH-32vBHV-AUC2q8mQTkNyqn_4MA-zd54K6jOoDcaj8dPJPYlPdU2GQSf_HP7mUclnD-sBDzLAamKVYzi0OHekcgSovJuZak3JbIuS_SIG7E8NECvb31kI0UnZzq6WrGNQL8qMRK3LBd636WTiofGR5Pr9p1CsfOt8LExXoaHipb_Mhf4ujAz21yRQwm8LswzLBscnOZHHLmkWn6uaTM7oxrYhTwoOomTPLbhRnhqwa15ol_l4fQ6dVTNpnWk9DFq6gKr5wgjWl32SIT9gW4uzdqpKz2XWVyDNOJZ8dAFb053O_Y_6LtuDOQG0r9CQ9B8g1bT36MYjuClf0UwaDD3mmu-IETbbFNCyYBRGSRn01M-M1y3NpDQoZr0glAlLN_qF-g8iVgugUtTsbyUNtynl6xJUSr4lck28TiZ2wFa8Y3UYbTV5JwveiKxcxFL72uNCWtJFXv8fJlj8Tvyk-Bw9IbIJaaIpBJgZjK3KmIhCcU7VarUUUZRfNa-5BUpu_p2fFYwhVlAd4JJl93jTchuLXzj_Qvz3f0Afh7Mja9x_P6lYi2WIB-jFgZ16WtMhh5PHkgwOxF1YzmF4ChGolu9BvXXqYux0dkoI5_r5lqwsYYQkQOnmUwH-VxLuyUicxyMPOKe_k9-QBeP8_v7GSDZdB_Pd0dcqrbFPECOE_jpFcEk0l9InEfFYtYG0zNGKer8ddAT9CpvQb0si5HwAxlRQRAyLptjDVzFIXyaEPemJTKeFFwJMTpDa2gKrMorYvJGVDPp7x95RDljQgShtPTFqGFrgF_mYAFjyOv8DzUbDVKof5knoTxBr6CsDaRxM5I9epuD4UxjWf9YwSwhKvl2p01EknEyWtJImNmMFfr7up-ng9M3hoeKqVF-1ABV_BlSniujwV-9mfKgP0zXXqtuluwj955U6YLp2ndd7opG7jXVz002Y1bws7oJvjWQqf20gquSebSYz5HHJ4RSqu2ev5EOc9_VeOHXFm4gYttLdHt1wRnbleiLez_8hYTPhmIPiqk0JlAPHmA8JvPaPy517tMOw8uKEsWOBFQbcjKBfA0n4wpo9E3K11vis0Z4uc3ewdwJcLd-fes85zSNL4zFcGr6ndbC2-HZjYsG_B3OvYofAGchhsAqppDjc4k3GZDL-n4kFLVLTU7ab50m1o5_4VWcwDlKwvMz83LZa4p9HcgATTq6g5jAGHSArNbfGDCoMdHAu89Qk098cvHo0bj5tViByEUCSD8S_iFeP_8p68rFCo0hV6W81UlSlTVhaz2fbExOY3DzODiMnvgCze5mZPPq7u7t1MkdKj9aIK_il7PwJgdwlzy4Ws5Ji15zXSZZwM9ZlFgT5ByEz1t2DCt2UAMjTQzeAhSdisMbIOHGoVw6OfJscSa16rR4fUKz5oKc9RQufhGI-43XlFvq_945JrAQdIGCZclGDNq1A-IX8xCLieZ3Ve-wbYDnMxEet5bVFHOOmIl-p7YNsP_VQ5eeIwPOdfCiIeCFUkhxV0UnE6WNXywXh5uYkySN-G5Q8pUzhuhDn35OvpXFm7XXBDOJqxYDGSUuUMeNkez9ZK2YN_65_-5oLAAtXKMjY1N19xm4E0UuOENYDIT5zaLK_G7HaEE8RPZ9HC6BVM_ZyA_wcuF-ezsXuNitcG29PLz4TJs_ax4JFu3QE4tIVrLN91QPoQbwOpAPkqI-jv2EhgPMTAnvSza-5pxChyOPY2S1YQHTW9lD2eAlBm8W28DZ9KAqQ3JF-h9FC9W-nvy33oocRq9sVZqYfXMeUbccOCAYaQHn0uPtcj6S_VJW_Pzn61RqseemFjYp6J0xS6N7aPU6yG8YkeJPZhcSq0uk_d3rNFMGsYxQ35vJyBzw-LrBizgcjoaFys6lmsgCTc5AYfHfDihgiAmm__Ki4Azhpvp885fngUEYEog4quUc8QdWlqO1F7dCrIaQKWn9kH8JDUCvaAOFPiQWkF2XyYJT9BnGWjtpyeEe7Gw26GBrj4s5EwEJVyLCHsLpw_coapZCjMLmYqjF89enZCaPrMgXOtOScm7TlmEDtaC2fQDWY16hD7wvDkU6WAr7cp9RvaC1Fp4t2YOlqaWqXbGkB45spPhy48mD6Lp5CFhCxCbEMN7D-_YY1I7OsBcuGeAXkOHZp-Qy6I_6qf5aMq8DwBH--czq2wqJQgerMHvmNoiS8tmlXvy1lj7jcJgHt7PR02LQbpJgK-JOwrr8w87QTY0gTzvUMudegH0DdL06hGcIcHDdOP205dhzF6oOhPrn4Ldnqx2Z-Jzv7RAQVzZ68xiIJLgp-aAt1Cy-PtiFGodiRsrJKGat1WfLloKtiXKbNk9cXNxmm4iUJg54Fs7OmpflmVvCJowUZcA8JdRucccGy8WjSojsiv_bwV49xHwsuFF1tzREwW4gGhY7JIRb5fQhflZm0oXNhVpqnUlBceHkXq2CIZrf3rL4gfYO91PeBNcYR43FM2p48J0RzTWX9f0DGyhO8nrXg2sGnhzYwPYW2CNPYgO7gcWBmNYo4s89lgNcx1kf61VlMEtcMcmhlkyOZsT-0GpxOEs9fMV15hyyFce5kg8mt1WvP5h7JfLjC6dxQ1VUuWt0wSC77FSHdiiJmCfk1_djsqOb9Y9GaN7ZTelkSCejZbhn0Lc0NnSDUeAF4npaYOa1_qJcr94vexUibXnp-xVerM2NxUq0FL6gwHwxJFFExlBQfPtakgnaZ4tlm3Ihq3at4BV9EnCWgfrT0&opi=122715837
+            - img [ref=f4e26]
+        - img [ref=f4e29] [cursor=pointer]
+        - generic [ref=f4e40]:
+          - img [ref=f4e43]
+          - generic [ref=f4e46]:
+            - text: Ads by
+            - img [ref=f4e47]
+          - generic [ref=f4e50]:
+            - generic [ref=f4e53] [cursor=pointer]: Ad options
+            - generic [ref=f4e56] [cursor=pointer]: Send feedback
+            - link [ref=f4e58] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_5lKAeWMfbyQ0BKnLxo0mjb9tvtrG1WcoY9eBD7PoH-32vBHV-AUC2q8mQTkNyqn_4MA-zd54K6jOoDcaj8dPJPYlPdU2GQSf_HP7mUclnD-sBDzLAamKVYzi0OHekcgSovJuZak3JbIuS_SIG7E8NECvb31kI0UnZzq6WrGNQL8qMRK3LBd636WTiofGR5Pr9p1CsfOt8LExXoaHipb_Mhf4ujAz21yRQwm8LswzLBscnOZHHLmkWn6uaTM7oxrYhTwoOomTPLbhRnhqwa15ol_l4fQ6dVTNpnWk9DFq6gKr5wgjWl32SIT9gW4uzdqpKz2XWVyDNOJZ8dAFb053O_Y_6LtuDOQG0r9CQ9B8g1bT36MYjuClf0UwaDD3mmu-IETbbFNCyYBRGSRn01M-M1y3NpDQoZr0glAlLN_qF-g8iVgugUtTsbyUNtynl6xJUSr4lck28TiZ2wFa8Y3UYbTV5JwveiKxcxFL72uNCWtJFXv8fJlj8Tvyk-Bw9IbIJaaIpBJgZjK3KmIhCcU7VarUUUZRfNa-5BUpu_p2fFYwhVlAd4JJl93jTchuLXzj_Qvz3f0Afh7Mja9x_P6lYi2WIB-jFgZ16WtMhh5PHkgwOxF1YzmF4ChGolu9BvXXqYux0dkoI5_r5lqwsYYQkQOnmUwH-VxLuyUicxyMPOKe_k9-QBeP8_v7GSDZdB_Pd0dcqrbFPECOE_jpFcEk0l9InEfFYtYG0zNGKer8ddAT9CpvQb0si5HwAxlRQRAyLptjDVzFIXyaEPemJTKeFFwJMTpDa2gKrMorYvJGVDPp7x95RDljQgShtPTFqGFrgF_mYAFjyOv8DzUbDVKof5knoTxBr6CsDaRxM5I9epuD4UxjWf9YwSwhKvl2p01EknEyWtJImNmMFfr7up-ng9M3hoeKqVF-1ABV_BlSniujwV-9mfKgP0zXXqtuluwj955U6YLp2ndd7opG7jXVz002Y1bws7oJvjWQqf20gquSebSYz5HHJ4RSqu2ev5EOc9_VeOHXFm4gYttLdHt1wRnbleiLez_8hYTPhmIPiqk0JlAPHmA8JvPaPy517tMOw8uKEsWOBFQbcjKBfA0n4wpo9E3K11vis0Z4uc3ewdwJcLd-fes85zSNL4zFcGr6ndbC2-HZjYsG_B3OvYofAGchhsAqppDjc4k3GZDL-n4kFLVLTU7ab50m1o5_4VWcwDlKwvMz83LZa4p9HcgATTq6g5jAGHSArNbfGDCoMdHAu89Qk098cvHo0bj5tViByEUCSD8S_iFeP_8p68rFCo0hV6W81UlSlTVhaz2fbExOY3DzODiMnvgCze5mZPPq7u7t1MkdKj9aIK_il7PwJgdwlzy4Ws5Ji15zXSZZwM9ZlFgT5ByEz1t2DCt2UAMjTQzeAhSdisMbIOHGoVw6OfJscSa16rR4fUKz5oKc9RQufhGI-43XlFvq_945JrAQdIGCZclGDNq1A-IX8xCLieZ3Ve-wbYDnMxEet5bVFHOOmIl-p7YNsP_VQ5eeIwPOdfCiIeCFUkhxV0UnE6WNXywXh5uYkySN-G5Q8pUzhuhDn35OvpXFm7XXBDOJqxYDGSUuUMeNkez9ZK2YN_65_-5oLAAtXKMjY1N19xm4E0UuOENYDIT5zaLK_G7HaEE8RPZ9HC6BVM_ZyA_wcuF-ezsXuNitcG29PLz4TJs_ax4JFu3QE4tIVrLN91QPoQbwOpAPkqI-jv2EhgPMTAnvSza-5pxChyOPY2S1YQHTW9lD2eAlBm8W28DZ9KAqQ3JF-h9FC9W-nvy33oocRq9sVZqYfXMeUbccOCAYaQHn0uPtcj6S_VJW_Pzn61RqseemFjYp6J0xS6N7aPU6yG8YkeJPZhcSq0uk_d3rNFMGsYxQ35vJyBzw-LrBizgcjoaFys6lmsgCTc5AYfHfDihgiAmm__Ki4Azhpvp885fngUEYEog4quUc8QdWlqO1F7dCrIaQKWn9kH8JDUCvaAOFPiQWkF2XyYJT9BnGWjtpyeEe7Gw26GBrj4s5EwEJVyLCHsLpw_coapZCjMLmYqjF89enZCaPrMgXOtOScm7TlmEDtaC2fQDWY16hD7wvDkU6WAr7cp9RvaC1Fp4t2YOlqaWqXbGkB45spPhy48mD6Lp5CFhCxCbEMN7D-_YY1I7OsBcuGeAXkOHZp-Qy6I_6qf5aMq8DwBH--czq2wqJQgerMHvmNoiS8tmlXvy1lj7jcJgHt7PR02LQbpJgK-JOwrr8w87QTY0gTzvUMudegH0DdL06hGcIcHDdOP205dhzF6oOhPrn4Ldnqx2Z-Jzv7RAQVzZ68xiIJLgp-aAt1Cy-PtiFGodiRsrJKGat1WfLloKtiXKbNk9cXNxmm4iUJg54Fs7OmpflmVvCJowUZcA8JdRucccGy8WjSojsiv_bwV49xHwsuFF1tzREwW4gGhY7JIRb5fQhflZm0oXNhVpqnUlBceHkXq2CIZrf3rL4gfYO91PeBNcYR43FM2p48J0RzTWX9f0DGyhO8nrXg2sGnhzYwPYW2CNPYgO7gcWBmNYo4s89lgNcx1kf61VlMEtcMcmhlkyOZsT-0GpxOEs9fMV15hyyFce5kg8mt1WvP5h7JfLjC6dxQ1VUuWt0wSC77FSHdiiJmCfk1_djsqOb9Y9GaN7ZTelkSCejZbhn0Lc0NnSDUeAF4npaYOa1_qJcr94vexUibXnp-xVerM2NxUq0FL6gwHwxJFFExlBQfPtakgnaZ4tlm3Ihq3at4BV9EnCWgfrT0&opi=122715837
+              - generic [ref=f4e59]:
+                - text: Why this ad?
+                - img [ref=f4e60]
+        - generic [ref=f4e62]:
+          - generic [ref=f4e65] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f4e68] [cursor=pointer]: Ad covered content
+          - generic [ref=f4e71] [cursor=pointer]: Not interested in this ad
+          - generic [ref=f4e74] [cursor=pointer]: Seen this ad multiple times
+        - generic [ref=f4e80]: Thanks. Feedback improves Google ads
+        - generic [ref=f4e86]:
+          - text: Ad closed by
+          - img [ref=f4e87]
+        - generic [ref=f4e94]:
+          - img [ref=f4e97]
+          - generic [ref=f4e99]:
+            - generic [ref=f4e101]: Personalize ads on this site
+            - link [ref=f4e105] [cursor=pointer]:
+              - /url: https://support.google.com/ads/answer/10923348
+              - generic [ref=f4e106]:
+                - text: Learn more
+                - img [ref=f4e107]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e25]
+            - text: Elements
+          - img [ref=e30]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - text: Forms
+          - img [ref=e45]
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - text: Alerts, Frame & Windows
+          - img [ref=e59]
+        - generic [ref=e63]:
+          - generic [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - text: Widgets
+            - img [ref=e73]
+          - list [ref=e78]:
+            - listitem [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e82]: Accordian
+            - listitem [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: Auto Complete
+            - listitem [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e90]: Date Picker
+            - listitem [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e94]: Slider
+            - listitem [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Progress Bar
+            - listitem [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - generic [ref=e102]: Tabs
+            - listitem [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - generic [ref=e106]: Tool Tips
+            - listitem [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - generic [ref=e110]: Menu
+            - listitem [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+              - generic [ref=e114]: Select Menu
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e143]:
+        - iframe [active] [ref=e146]:
+          - generic [ref=f6e1]:
+            - generic [ref=f6e4]:
+              - link [active] [ref=f6e5] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=9&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                - img [ref=f6e6]
+              - generic [ref=f6e8]:
+                - generic [ref=f6e11]:
+                  - link "Hydrolyzed Bovine Collagen" [ref=f6e14] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                  - link "Edible Hydrolyzed Marine Fish Collagen Peptide for Skin Beauty Products" [ref=f6e17] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=7&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                    - text: Edible Hydrolyzed Marine Fish Collagen Peptide for
+                    - text: Skin Beauty Products
+                - generic [ref=f6e20]:
+                  - link:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                  - link "chondroitinpowder" [ref=f6e22] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=1&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                  - link "Open" [ref=f6e24] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                  - link [ref=f6e25] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=Cvlms1yZeaZzmJJDEt_gPxcKCabDpiNeDAaHo7uvbFJ-kjvroDhABIMb71nlgy9S0BaAByuHflkDIAQmpAoAHlr7FNYM-4AIAqAMByAMKqgSHAk_QKOv2Y7obBiS0H7o370iKWvwylxGkI_WtBqWNby72qkpnStntMWysBK3UqKa61x5vOohSD6ObH3QsEH7BiJGZpjsXu-HMKXhzjlmidjysdTlwU-qOs3GFMAGjrFWx_K7EYRThODRSyXSDnm0rMlUszEDc3oi-RzfJetS7vJgKWCrf_8kOD4uxx942w1y96Sr5XkmQKU94IN6te9ZvYSC4Kg4zHAaNtpHfX6i1S58qktMyrKYhbf3ca57UKd2f_il8RBxmZhnAFzUsmOr_2bZkXsJBXBlqccPptNnd3w1XiNvcXeB6OmAGiDQbWf0U2e19bGndUktbtYHalEgnUeAd0Gu1wCo5wASVt8DloAXgBAGIBYWU555VoAYugAfKmbD2GqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAfYtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ0BMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNPPq6GO-ZED8ggbYWR4LXN1YnN5bi0zNTIwNjE3MzQxNjY1NTkysQnZRuw1r5ISv4AKA5gLAcgLAYAMAaoNAlBLyA0B4g0TCKylrKGO-ZEDFRDiDQkdRaEgDeoNEwibjq2hjvmRAxUQ4g0JHUWhIA3wDQKIDv___________wHYEwzQFQHKFgIKAPgWAYAXAbIXDhgBKgo2MTY4NTc2NTA1uhcGCAE4AUgBqhgXCQAAAAA4uQpBEgo2MTY4NTc2NTA1GAGyGAkSAvxbGC4iAQDQGAHoGAGAGQPCGQIIAQ&ae=1&gclid=EAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE&num=1&cid=CAQSsgEAwksa0dgFHL2IyDAGYNyqtByaHc1ecMzMm3-K3C9nLQads09Wn87VfDTEgz-d1U6O8MtFgXMAAcHvBDeTU4fOZKEptLJAgmYsJQULAVEdPkOovNpBajToHN2KxMzR0l7YmbBSjGo-GS5wCtEoUoYDyDdaVSWVgxGoYYFajwacyXjN4Epw_iyeRiUANKVuQFrir3SgcarNkgkUV2JvVHWXgpzg_D_Udp-A_AGhkFLj8nt0GAE&sig=AOD64_1IUXUkVHvBDxOcjKHveyA1Vpx_ag&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.chondroitinpowder.com/china-soluble_food_grade_hydrolyzed_bovine_collagen_white_powder_for_joints_care-33385681.html%3Fgbraid%3D0AAAABALX8Mp_IuOJOH55HzLC1Bboftmvu%26kh%26adcid%3D22885608916%26adgid%3D%26kwd%3D%26mctp%3D%26net%3Dx%26device%3Dc%26rank%3D%26gad_source%3D5%26gad_campaignid%3D22881618437%26gclid%3DEAIaIQobChMI3K29oY75kQMVEOINCR1FoSANEAEYASAAEgKyjfD_BwE
+                    - generic [ref=f6e26]:
+                      - img [ref=f6e27]
+                      - img [ref=f6e29]
+            - generic [ref=f6e34]:
+              - link [ref=f6e36] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_7qQK_SUO8LvjPND_hnURkdLASbpXs7iRIdUHpeVtGh069Kfj51j59uEl5vnE2C31QAWhMkK8L5NPgsLjYEM1G-aL-mwrHv0FsME6_ruIQyh2sdDfc5POqTo0j3UhCQF7hb-PLU9Ngr3XKw8qN_f1CbLt3Cy0UAmf8apJQ9PRxYD4xfFqqOkV-xsQt_NXSAYK9kriifUpuGm3jJEtRPy5OzDbOVYm7bOy4Q1rdKZSsh6fYqP5UJ1f69vBujSDyaYdNfrPh3Q1S-z7NDxaqR6bSTByIe9hYQZ0__Yzsqopb4Eh6sTpjpwp57g1Tvwd3Cut9Iv6szYEU7InJN-UPVt4eceL2ekK2yp80P5tQpvoyyMhZp-79o36hZ41i6MTkz8yp9cgXoM5fl3lOHN4NOIdNSVbCzkYLm3j10UCvEuR9D5hzZRrnYKFLRTRRqjmasxTVOVn4aEQ8j56D4VeGMZwroyISggz7zRgSFV20eM-ho_8zyFSAukRUpa-Y9-xLiP8ohsFj8RpoG4VP_cF4WjuEy6FHFYJzc4H0PSmkIm5xrgdUobcUqjAg-wqFa0UY0MNs4qX8GWM2PC6p-wVT4Ju3lngG-Uv8-aLNyoFJnG6bMETYuk6XlNLHtrCF7VwWH4sfJuSG7rLyRm5ib7pGJPPUuY7Kk7XFSxCBDigL6WfbCacxGJtgH1bNzcd0n1YL4VolJlFrXKkZN-nG1HG9SH4mRgZZVrLJAPl0A-tlvTPRcx0Udwgw-yzIogukdVsu8i1ay-FM_k6tVIyNk-iAsksrzgtFAckJq2RfjcAVi8Ku9KN3SK-d8dCbdZBx4Hn7PiJ4EH3lmHK8Bw-8acb5b1Mrf0obUVkKEpvb68AEDuW5j19nUm9yVGdy5qftcJlb1WHazw4eCLnAA82yY0MfoqGeWIAJ7GDIHYSWIgSalguGx1DirSMpdqkqA4tyQbgbMw7UcbEYHU3FrMpgyc3oGOJxelc2KyJlR27aZE91UiPdX2SNsQFM9sXYSLA78mA0E8uYWq0Iy59XH_tZ89rzKRoBWByDUzQln4_pkGVAWlFIio3uscfPsGN369bWJjJ_2eZbDaOQS4rbfAJAl6oQFebIMvlmFwC6bdSGjkhyU8gZQSyePpz2YAMsDPiCUdJP8lAdH_hffEUI1f0r29K1bcVvacXATo1Nlq7lrmOWjviZjc5K_UkS5ym03GP3vCYHBCECfTWYwqkFieTVCjrTPS6mzjsQbZ3ryNv2qQ20Av46OJX16iAfJLScwc0Y4QAqpOVLRosudElLTCaYkIpFSzoTZ1IyFceG4a2rubl_vQjM1DAoysZZtJRgQA2_ze4-tyjlQRUUcXHy34y8cgn39wAmdf-jKR3R1kj_4E_YoDDk0-qbTBiDDNBd2D6Rt4IjNS5c0inbstjYH2FnOlOWWDxFO-mFIgjKro3p1NiDzx9PgF3sYKhPyVHPl7xkOvyMso9pDPkNT5Hzapcm6kniDEm4TnLuU8ao00b3YAbrH-Qo7dymVQpm2VU66E1l08sHP5T25DwvXR9WDAMed1BmBX8iEINlIAiLIrEzwN0gC1PS-0YMshJRKw0624KFtxC6o7hkysU91itfBMefpuYsLk3S7D5LC7cGu-DbDMbhaCFJTwzmdmUzQS4aWUKJqeTeiZQNAS2aMgudzH4NB38RK9RjhtwwfPkjHaXnQJMuyHno9QtRwLq_NONLVSS7RFwCK6M7qCg6au7VSUdwnKSPNxTYDcv9Wytitx3r_PjHiQ6TI6LfRNMDZWTqnvbOdL5i_zN4I03bh7gP0lonzmbT_57CBfzOLUq_3A7_lcNCfdaQv1VQz7LIl-9JXrTzzn8K3QR7Lqq7jF2T_3aaMHHkg69fbuSl1vIfC8eQOdieaQGSPCR1BBOsj20S_kKTTZE-i-zZFFnNZIFQh0QZ_u1EwqNWVaQn5M9a6TaI2544-sAQ3D5vlVRuidnnqlGxSSu7WVRz4f4PJbjJRdwETmRxcH7oD4NfHtig48Z039QLvCwU88SLnyGAvG9vs-PK36NgFUPTYUj_RWmg1S-6v4dCmbF5K1uvkuzSS0q3XEUVdZhfo9dNi6bVUpduCzPCEs2AAo89qEUyrHB4PwGT7CDc01LDWR8ujifu09fckRuf1gyZcI8WEg-bdqyfzSaTOzdSW1-zhPY-dYaZmmwfNElbxy1rJrnkzh71BALhlmrRiVZVcDRGv0Y7RNZR0BE84gFkRI5PG_tc65X2sxIiO9lt4gV2-xGywm8p3BKuapdKOoTpVOmsBnxAVbgHXAO813lP8-QUcbvkPsAoQ-DX34ma2d7EXmzMU_W_FDKC5FOxwkvFIBGAGoBhy5g9r2r3xBtvkfUSCYlEMueiKeZxQndcv-HzpQuqfvrN0EGyue3a36agUkds9vIxB9tAGcsA8eEk9npvytL51JuTVb5RMTVrro5Q1RP3lP7ik7fldMgWjHgCFLUG2b2nO485t95BYHwrBJqTW7aK3gdjXoVBEn8ucCUG3nlBoql0W-Vuc001ZfRUT9GKAXgzFVa_IOFAWEbnGlG9advaPsffAu-Uqfzn69RmumyCMfwtU5Xi_SH4Y_w2xCvRsCBLtJb4pIL1zqgoyx7Mj-iP9qL6aMSd2UL_dFn_XzFDeFot2a7gSGeZrrjfy_hC6xvP7rfiFpZMoAeajKJXpAKIRezSS4RxvhAsRh7EPb3oJuDl76ojT1jqSLjmbH-IcIC2w69-5CiUvDZq1RQNyKbQv6gVHktUlix4&opi=122715837
+                - img [ref=f6e38]
+              - link [ref=f6e40] [cursor=pointer]:
+                - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_7qQK_SUO8LvjPND_hnURkdLASbpXs7iRIdUHpeVtGh069Kfj51j59uEl5vnE2C31QAWhMkK8L5NPgsLjYEM1G-aL-mwrHv0FsME6_ruIQyh2sdDfc5POqTo0j3UhCQF7hb-PLU9Ngr3XKw8qN_f1CbLt3Cy0UAmf8apJQ9PRxYD4xfFqqOkV-xsQt_NXSAYK9kriifUpuGm3jJEtRPy5OzDbOVYm7bOy4Q1rdKZSsh6fYqP5UJ1f69vBujSDyaYdNfrPh3Q1S-z7NDxaqR6bSTByIe9hYQZ0__Yzsqopb4Eh6sTpjpwp57g1Tvwd3Cut9Iv6szYEU7InJN-UPVt4eceL2ekK2yp80P5tQpvoyyMhZp-79o36hZ41i6MTkz8yp9cgXoM5fl3lOHN4NOIdNSVbCzkYLm3j10UCvEuR9D5hzZRrnYKFLRTRRqjmasxTVOVn4aEQ8j56D4VeGMZwroyISggz7zRgSFV20eM-ho_8zyFSAukRUpa-Y9-xLiP8ohsFj8RpoG4VP_cF4WjuEy6FHFYJzc4H0PSmkIm5xrgdUobcUqjAg-wqFa0UY0MNs4qX8GWM2PC6p-wVT4Ju3lngG-Uv8-aLNyoFJnG6bMETYuk6XlNLHtrCF7VwWH4sfJuSG7rLyRm5ib7pGJPPUuY7Kk7XFSxCBDigL6WfbCacxGJtgH1bNzcd0n1YL4VolJlFrXKkZN-nG1HG9SH4mRgZZVrLJAPl0A-tlvTPRcx0Udwgw-yzIogukdVsu8i1ay-FM_k6tVIyNk-iAsksrzgtFAckJq2RfjcAVi8Ku9KN3SK-d8dCbdZBx4Hn7PiJ4EH3lmHK8Bw-8acb5b1Mrf0obUVkKEpvb68AEDuW5j19nUm9yVGdy5qftcJlb1WHazw4eCLnAA82yY0MfoqGeWIAJ7GDIHYSWIgSalguGx1DirSMpdqkqA4tyQbgbMw7UcbEYHU3FrMpgyc3oGOJxelc2KyJlR27aZE91UiPdX2SNsQFM9sXYSLA78mA0E8uYWq0Iy59XH_tZ89rzKRoBWByDUzQln4_pkGVAWlFIio3uscfPsGN369bWJjJ_2eZbDaOQS4rbfAJAl6oQFebIMvlmFwC6bdSGjkhyU8gZQSyePpz2YAMsDPiCUdJP8lAdH_hffEUI1f0r29K1bcVvacXATo1Nlq7lrmOWjviZjc5K_UkS5ym03GP3vCYHBCECfTWYwqkFieTVCjrTPS6mzjsQbZ3ryNv2qQ20Av46OJX16iAfJLScwc0Y4QAqpOVLRosudElLTCaYkIpFSzoTZ1IyFceG4a2rubl_vQjM1DAoysZZtJRgQA2_ze4-tyjlQRUUcXHy34y8cgn39wAmdf-jKR3R1kj_4E_YoDDk0-qbTBiDDNBd2D6Rt4IjNS5c0inbstjYH2FnOlOWWDxFO-mFIgjKro3p1NiDzx9PgF3sYKhPyVHPl7xkOvyMso9pDPkNT5Hzapcm6kniDEm4TnLuU8ao00b3YAbrH-Qo7dymVQpm2VU66E1l08sHP5T25DwvXR9WDAMed1BmBX8iEINlIAiLIrEzwN0gC1PS-0YMshJRKw0624KFtxC6o7hkysU91itfBMefpuYsLk3S7D5LC7cGu-DbDMbhaCFJTwzmdmUzQS4aWUKJqeTeiZQNAS2aMgudzH4NB38RK9RjhtwwfPkjHaXnQJMuyHno9QtRwLq_NONLVSS7RFwCK6M7qCg6au7VSUdwnKSPNxTYDcv9Wytitx3r_PjHiQ6TI6LfRNMDZWTqnvbOdL5i_zN4I03bh7gP0lonzmbT_57CBfzOLUq_3A7_lcNCfdaQv1VQz7LIl-9JXrTzzn8K3QR7Lqq7jF2T_3aaMHHkg69fbuSl1vIfC8eQOdieaQGSPCR1BBOsj20S_kKTTZE-i-zZFFnNZIFQh0QZ_u1EwqNWVaQn5M9a6TaI2544-sAQ3D5vlVRuidnnqlGxSSu7WVRz4f4PJbjJRdwETmRxcH7oD4NfHtig48Z039QLvCwU88SLnyGAvG9vs-PK36NgFUPTYUj_RWmg1S-6v4dCmbF5K1uvkuzSS0q3XEUVdZhfo9dNi6bVUpduCzPCEs2AAo89qEUyrHB4PwGT7CDc01LDWR8ujifu09fckRuf1gyZcI8WEg-bdqyfzSaTOzdSW1-zhPY-dYaZmmwfNElbxy1rJrnkzh71BALhlmrRiVZVcDRGv0Y7RNZR0BE84gFkRI5PG_tc65X2sxIiO9lt4gV2-xGywm8p3BKuapdKOoTpVOmsBnxAVbgHXAO813lP8-QUcbvkPsAoQ-DX34ma2d7EXmzMU_W_FDKC5FOxwkvFIBGAGoBhy5g9r2r3xBtvkfUSCYlEMueiKeZxQndcv-HzpQuqfvrN0EGyue3a36agUkds9vIxB9tAGcsA8eEk9npvytL51JuTVb5RMTVrro5Q1RP3lP7ik7fldMgWjHgCFLUG2b2nO485t95BYHwrBJqTW7aK3gdjXoVBEn8ucCUG3nlBoql0W-Vuc001ZfRUT9GKAXgzFVa_IOFAWEbnGlG9advaPsffAu-Uqfzn69RmumyCMfwtU5Xi_SH4Y_w2xCvRsCBLtJb4pIL1zqgoyx7Mj-iP9qL6aMSd2UL_dFn_XzFDeFot2a7gSGeZrrjfy_hC6xvP7rfiFpZMoAeajKJXpAKIRezSS4RxvhAsRh7EPb3oJuDl76ojT1jqSLjmbH-IcIC2w69-5CiUvDZq1RQNyKbQv6gVHktUlix4&opi=122715837
+                - img [ref=f6e42]
+            - img [ref=f6e45] [cursor=pointer]
+            - generic [ref=f6e56]:
+              - img [ref=f6e59]
+              - generic [ref=f6e62]:
+                - text: Ads by
+                - img [ref=f6e63]
+              - generic [ref=f6e66]:
+                - generic [ref=f6e69] [cursor=pointer]: Ad options
+                - generic [ref=f6e72] [cursor=pointer]: Send feedback
+                - link [ref=f6e74] [cursor=pointer]:
+                  - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_7qQK_SUO8LvjPND_hnURkdLASbpXs7iRIdUHpeVtGh069Kfj51j59uEl5vnE2C31QAWhMkK8L5NPgsLjYEM1G-aL-mwrHv0FsME6_ruIQyh2sdDfc5POqTo0j3UhCQF7hb-PLU9Ngr3XKw8qN_f1CbLt3Cy0UAmf8apJQ9PRxYD4xfFqqOkV-xsQt_NXSAYK9kriifUpuGm3jJEtRPy5OzDbOVYm7bOy4Q1rdKZSsh6fYqP5UJ1f69vBujSDyaYdNfrPh3Q1S-z7NDxaqR6bSTByIe9hYQZ0__Yzsqopb4Eh6sTpjpwp57g1Tvwd3Cut9Iv6szYEU7InJN-UPVt4eceL2ekK2yp80P5tQpvoyyMhZp-79o36hZ41i6MTkz8yp9cgXoM5fl3lOHN4NOIdNSVbCzkYLm3j10UCvEuR9D5hzZRrnYKFLRTRRqjmasxTVOVn4aEQ8j56D4VeGMZwroyISggz7zRgSFV20eM-ho_8zyFSAukRUpa-Y9-xLiP8ohsFj8RpoG4VP_cF4WjuEy6FHFYJzc4H0PSmkIm5xrgdUobcUqjAg-wqFa0UY0MNs4qX8GWM2PC6p-wVT4Ju3lngG-Uv8-aLNyoFJnG6bMETYuk6XlNLHtrCF7VwWH4sfJuSG7rLyRm5ib7pGJPPUuY7Kk7XFSxCBDigL6WfbCacxGJtgH1bNzcd0n1YL4VolJlFrXKkZN-nG1HG9SH4mRgZZVrLJAPl0A-tlvTPRcx0Udwgw-yzIogukdVsu8i1ay-FM_k6tVIyNk-iAsksrzgtFAckJq2RfjcAVi8Ku9KN3SK-d8dCbdZBx4Hn7PiJ4EH3lmHK8Bw-8acb5b1Mrf0obUVkKEpvb68AEDuW5j19nUm9yVGdy5qftcJlb1WHazw4eCLnAA82yY0MfoqGeWIAJ7GDIHYSWIgSalguGx1DirSMpdqkqA4tyQbgbMw7UcbEYHU3FrMpgyc3oGOJxelc2KyJlR27aZE91UiPdX2SNsQFM9sXYSLA78mA0E8uYWq0Iy59XH_tZ89rzKRoBWByDUzQln4_pkGVAWlFIio3uscfPsGN369bWJjJ_2eZbDaOQS4rbfAJAl6oQFebIMvlmFwC6bdSGjkhyU8gZQSyePpz2YAMsDPiCUdJP8lAdH_hffEUI1f0r29K1bcVvacXATo1Nlq7lrmOWjviZjc5K_UkS5ym03GP3vCYHBCECfTWYwqkFieTVCjrTPS6mzjsQbZ3ryNv2qQ20Av46OJX16iAfJLScwc0Y4QAqpOVLRosudElLTCaYkIpFSzoTZ1IyFceG4a2rubl_vQjM1DAoysZZtJRgQA2_ze4-tyjlQRUUcXHy34y8cgn39wAmdf-jKR3R1kj_4E_YoDDk0-qbTBiDDNBd2D6Rt4IjNS5c0inbstjYH2FnOlOWWDxFO-mFIgjKro3p1NiDzx9PgF3sYKhPyVHPl7xkOvyMso9pDPkNT5Hzapcm6kniDEm4TnLuU8ao00b3YAbrH-Qo7dymVQpm2VU66E1l08sHP5T25DwvXR9WDAMed1BmBX8iEINlIAiLIrEzwN0gC1PS-0YMshJRKw0624KFtxC6o7hkysU91itfBMefpuYsLk3S7D5LC7cGu-DbDMbhaCFJTwzmdmUzQS4aWUKJqeTeiZQNAS2aMgudzH4NB38RK9RjhtwwfPkjHaXnQJMuyHno9QtRwLq_NONLVSS7RFwCK6M7qCg6au7VSUdwnKSPNxTYDcv9Wytitx3r_PjHiQ6TI6LfRNMDZWTqnvbOdL5i_zN4I03bh7gP0lonzmbT_57CBfzOLUq_3A7_lcNCfdaQv1VQz7LIl-9JXrTzzn8K3QR7Lqq7jF2T_3aaMHHkg69fbuSl1vIfC8eQOdieaQGSPCR1BBOsj20S_kKTTZE-i-zZFFnNZIFQh0QZ_u1EwqNWVaQn5M9a6TaI2544-sAQ3D5vlVRuidnnqlGxSSu7WVRz4f4PJbjJRdwETmRxcH7oD4NfHtig48Z039QLvCwU88SLnyGAvG9vs-PK36NgFUPTYUj_RWmg1S-6v4dCmbF5K1uvkuzSS0q3XEUVdZhfo9dNi6bVUpduCzPCEs2AAo89qEUyrHB4PwGT7CDc01LDWR8ujifu09fckRuf1gyZcI8WEg-bdqyfzSaTOzdSW1-zhPY-dYaZmmwfNElbxy1rJrnkzh71BALhlmrRiVZVcDRGv0Y7RNZR0BE84gFkRI5PG_tc65X2sxIiO9lt4gV2-xGywm8p3BKuapdKOoTpVOmsBnxAVbgHXAO813lP8-QUcbvkPsAoQ-DX34ma2d7EXmzMU_W_FDKC5FOxwkvFIBGAGoBhy5g9r2r3xBtvkfUSCYlEMueiKeZxQndcv-HzpQuqfvrN0EGyue3a36agUkds9vIxB9tAGcsA8eEk9npvytL51JuTVb5RMTVrro5Q1RP3lP7ik7fldMgWjHgCFLUG2b2nO485t95BYHwrBJqTW7aK3gdjXoVBEn8ucCUG3nlBoql0W-Vuc001ZfRUT9GKAXgzFVa_IOFAWEbnGlG9advaPsffAu-Uqfzn69RmumyCMfwtU5Xi_SH4Y_w2xCvRsCBLtJb4pIL1zqgoyx7Mj-iP9qL6aMSd2UL_dFn_XzFDeFot2a7gSGeZrrjfy_hC6xvP7rfiFpZMoAeajKJXpAKIRezSS4RxvhAsRh7EPb3oJuDl76ojT1jqSLjmbH-IcIC2w69-5CiUvDZq1RQNyKbQv6gVHktUlix4&opi=122715837
+                  - generic [ref=f6e75]:
+                    - text: Why this ad?
+                    - img [ref=f6e76]
+            - generic [ref=f6e78]:
+              - generic [ref=f6e81] [cursor=pointer]: Not interested in this ad
+              - generic [ref=f6e84] [cursor=pointer]: Ad covered content
+              - generic [ref=f6e87] [cursor=pointer]: Ad was inappropriate
+              - generic [ref=f6e90] [cursor=pointer]: Seen this ad multiple times
+            - generic [ref=f6e96]: Thanks. Feedback improves Google ads
+            - generic [ref=f6e102]:
+              - text: Ad closed by
+              - img [ref=f6e103]
+            - generic [ref=f6e110]:
+              - img [ref=f6e113]
+              - generic [ref=f6e115]:
+                - generic [ref=f6e117]: Personalize ads on this site
+                - link [ref=f6e121] [cursor=pointer]:
+                  - /url: https://support.google.com/ads/answer/10923348
+                  - generic [ref=f6e122]:
+                    - text: Learn more
+                    - img [ref=f6e123]
+        - generic [ref=e147]:
+          - heading "Select Menu" [level=1] [ref=e148]
+          - generic [ref=e150]: Select Value
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - generic [ref=e156]: Select Option
+              - textbox [ref=e159]
+            - img [ref=e163]
+          - generic [ref=e166]: Select One
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]: Select Title
+              - textbox [ref=e175]
+            - img [ref=e179]
+          - generic [ref=e182]: Old Style Select Menu
+          - combobox [ref=e186]:
+            - option "Red" [selected]
+            - option "Blue"
+            - option "Green"
+            - option "Yellow"
+            - option "Purple"
+            - option "Black"
+            - option "White"
+            - option "Voilet"
+            - option "Indigo"
+            - option "Magenta"
+            - option "Aqua"
+          - generic [ref=e188]:
+            - paragraph [ref=e189]: Multiselect drop down
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic [ref=e193]: Select...
+                - textbox [ref=e196]
+              - img [ref=e200]
+          - generic [ref=e203]:
+            - paragraph [ref=e204]: Standard multi select
+            - listbox [ref=e205]:
+              - option "Volvo" [ref=e206]
+              - option "Saab" [ref=e207]
+              - option "Opel" [ref=e208]
+              - option "Audi" [ref=e209]
+        - iframe [ref=e213]:
+          
+      - generic [ref=e218]:
+        - img "Build PlayWright tests with AI" [ref=e220] [cursor=pointer]
+        - iframe [ref=e223]:
+          
+    - contentinfo [ref=e224]:
+      - generic [ref=e225]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
