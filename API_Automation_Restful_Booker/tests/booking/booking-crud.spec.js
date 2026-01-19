@@ -1,6 +1,6 @@
 // tests/booking/booking-crud.spec.js
 const { test, expect } = require('@playwright/test');
-const { getToken } = require('../../tests/utils/api-helper');
+const { getToken } = require('../utils/api-helper');
 
 test.describe.configure({ mode: 'serial' });
 
