@@ -1,0 +1,17 @@
+[
+    {
+        "name": "User A",
+        "gender": "male",
+        "status": "Active"
+    },
+    {
+        "name": "User B",
+        "gender": "female",
+        "status": "Active"
+    },
+    {
+        "name": "User C",
+        "gender": "male",
+        "status": "Active"
+    }
+]
