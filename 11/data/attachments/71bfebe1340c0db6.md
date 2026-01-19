@@ -1,0 +1,407 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [active] [ref=f4e1]:
+        - generic [ref=f4e3]:
+          - link [ref=f4e4] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEPSt1CteadvmHoyF9fgPoK2GiAP1p7aIhAHIsvDZ-hSYrfvmiQ4QASDG-9Z5YMvUtAWgAfK40fkDyAEJqQKrwNWa4p2zPuACAKgDAcgDCqoEiQJP0HesxzcTDm1ax0sc4ltrCwChfwnO9T5YJ9V2i-fEzpAyWn0OCtUeMuPTx8JebAQxIv1Y-ZNi2JbAjxYEwy5mn7sNVbMw5ZM2IgDl0uuOIa6cY_4RuAwyfbTAK1H1C6-aXNWuNndkGk4tcXc7Tql2_rVwveH31V4XzNUIE_cP2n-ysYqgMMAPJXZCm92VUejLFMdbqT-nqMxxrlgEPjpOMkNzo7S-dlY2akdcn_Kz27C5mJ7GkRnqJsBoPu1EByivbb90wKx08jryXnuVUzI5yip65k2z9z2wcpioZpJrYJWMYro_r-ExEmFgO_1U2GM2qD7-J49rL46MdHRj9-NsdlHqFtTV9FsvwASw54nbxQXgBAGIBaiqiKFVoAYugAf2xq4GqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_tWrgpP5kQPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCciZ-1PQnvFCgAoDmAsByAsBgAwBogwLKgYKBNbasQKQAQHaDBEKCxCAoJ-f8f-rtPkBEgIBA6oNAlBLyA0B4g0TCPWVrIKT-ZEDFYxCHQkdoJYBMeoNEwj_9KyCk_mRAxWMQh0JHaCWATHwDQKIDv___________wG4E-QD2BMOiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAADIxAJBEgo2MTY4NTc2NTA1GAGyGAkSAp1pGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE&num=1&cid=CAQSoAEAwksa0W8K7qtlc51dQeQlNn-6k8AyRNcrH4Pc32PHkq4OHcgHspU4nKrhFOerlnmZE6bITfheUkuqgPUY1fI3l7hvLsgC0zrSKNG1xhzlaOZOjkq-KRJ8ifI-pE6Q5GwrU_sdmvYXRnj3LMC1gh9dDKP9ua3qhxVdNhZ-gkfZzGqEOuTOk7SvA5mILJbsUGI7E0WH7MsEG8xlCTxRRp9cGAE&sig=AOD64_2z0ZolR-N6ZZg9V63Ptr2WoWcncA&client=ca-pub-4573231550355221&rf=4&nb=9&adurl=https://www.questico.de/hellsehen-und-wahrsagen/1disadwhellml080825.html%3Futm_source%3Dgoogle%26utm_medium%3DDisplay%26utm_campaign%3D1disadwhellml080825%26opt%3D0%26aff_id%3Dgo_qa_rtg_wett%26network%3Dd%26campaignid%3D22886356264%26extensionID%3D%26adgroupid%3D190511739824%26creative%3D768774791165%26keyword%3D%26matchtype%3D%26seiten%3Ddemoqa.com%26targetid%3D%26adid%3D768774791165%26gad_source%3D5%26gad_campaignid%3D22886356264%26gclid%3DEAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE
+            - img [ref=f4e5]
+          - link [ref=f4e7] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEPSt1CteadvmHoyF9fgPoK2GiAP1p7aIhAHIsvDZ-hSYrfvmiQ4QASDG-9Z5YMvUtAWgAfK40fkDyAEJqQKrwNWa4p2zPuACAKgDAcgDCqoEiQJP0HesxzcTDm1ax0sc4ltrCwChfwnO9T5YJ9V2i-fEzpAyWn0OCtUeMuPTx8JebAQxIv1Y-ZNi2JbAjxYEwy5mn7sNVbMw5ZM2IgDl0uuOIa6cY_4RuAwyfbTAK1H1C6-aXNWuNndkGk4tcXc7Tql2_rVwveH31V4XzNUIE_cP2n-ysYqgMMAPJXZCm92VUejLFMdbqT-nqMxxrlgEPjpOMkNzo7S-dlY2akdcn_Kz27C5mJ7GkRnqJsBoPu1EByivbb90wKx08jryXnuVUzI5yip65k2z9z2wcpioZpJrYJWMYro_r-ExEmFgO_1U2GM2qD7-J49rL46MdHRj9-NsdlHqFtTV9FsvwASw54nbxQXgBAGIBaiqiKFVoAYugAf2xq4GqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_tWrgpP5kQPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCciZ-1PQnvFCgAoDmAsByAsBgAwBogwLKgYKBNbasQKQAQHaDBEKCxCAoJ-f8f-rtPkBEgIBA6oNAlBLyA0B4g0TCPWVrIKT-ZEDFYxCHQkdoJYBMeoNEwj_9KyCk_mRAxWMQh0JHaCWATHwDQKIDv___________wG4E-QD2BMOiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAADIxAJBEgo2MTY4NTc2NTA1GAGyGAkSAp1pGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE&num=1&cid=CAQSoAEAwksa0W8K7qtlc51dQeQlNn-6k8AyRNcrH4Pc32PHkq4OHcgHspU4nKrhFOerlnmZE6bITfheUkuqgPUY1fI3l7hvLsgC0zrSKNG1xhzlaOZOjkq-KRJ8ifI-pE6Q5GwrU_sdmvYXRnj3LMC1gh9dDKP9ua3qhxVdNhZ-gkfZzGqEOuTOk7SvA5mILJbsUGI7E0WH7MsEG8xlCTxRRp9cGAE&sig=AOD64_2z0ZolR-N6ZZg9V63Ptr2WoWcncA&client=ca-pub-4573231550355221&rf=4&nb=19&adurl=https://www.questico.de/hellsehen-und-wahrsagen/1disadwhellml080825.html%3Futm_source%3Dgoogle%26utm_medium%3DDisplay%26utm_campaign%3D1disadwhellml080825%26opt%3D0%26aff_id%3Dgo_qa_rtg_wett%26network%3Dd%26campaignid%3D22886356264%26extensionID%3D%26adgroupid%3D190511739824%26creative%3D768774791165%26keyword%3D%26matchtype%3D%26seiten%3Ddemoqa.com%26targetid%3D%26adid%3D768774791165%26gad_source%3D5%26gad_campaignid%3D22886356264%26gclid%3DEAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE
+            - img [ref=f4e8]
+          - link "Gratis Hellsehen mit Questico" [ref=f4e11] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEPSt1CteadvmHoyF9fgPoK2GiAP1p7aIhAHIsvDZ-hSYrfvmiQ4QASDG-9Z5YMvUtAWgAfK40fkDyAEJqQKrwNWa4p2zPuACAKgDAcgDCqoEiQJP0HesxzcTDm1ax0sc4ltrCwChfwnO9T5YJ9V2i-fEzpAyWn0OCtUeMuPTx8JebAQxIv1Y-ZNi2JbAjxYEwy5mn7sNVbMw5ZM2IgDl0uuOIa6cY_4RuAwyfbTAK1H1C6-aXNWuNndkGk4tcXc7Tql2_rVwveH31V4XzNUIE_cP2n-ysYqgMMAPJXZCm92VUejLFMdbqT-nqMxxrlgEPjpOMkNzo7S-dlY2akdcn_Kz27C5mJ7GkRnqJsBoPu1EByivbb90wKx08jryXnuVUzI5yip65k2z9z2wcpioZpJrYJWMYro_r-ExEmFgO_1U2GM2qD7-J49rL46MdHRj9-NsdlHqFtTV9FsvwASw54nbxQXgBAGIBaiqiKFVoAYugAf2xq4GqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_tWrgpP5kQPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCciZ-1PQnvFCgAoDmAsByAsBgAwBogwLKgYKBNbasQKQAQHaDBEKCxCAoJ-f8f-rtPkBEgIBA6oNAlBLyA0B4g0TCPWVrIKT-ZEDFYxCHQkdoJYBMeoNEwj_9KyCk_mRAxWMQh0JHaCWATHwDQKIDv___________wG4E-QD2BMOiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAADIxAJBEgo2MTY4NTc2NTA1GAGyGAkSAp1pGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE&num=1&cid=CAQSoAEAwksa0W8K7qtlc51dQeQlNn-6k8AyRNcrH4Pc32PHkq4OHcgHspU4nKrhFOerlnmZE6bITfheUkuqgPUY1fI3l7hvLsgC0zrSKNG1xhzlaOZOjkq-KRJ8ifI-pE6Q5GwrU_sdmvYXRnj3LMC1gh9dDKP9ua3qhxVdNhZ-gkfZzGqEOuTOk7SvA5mILJbsUGI7E0WH7MsEG8xlCTxRRp9cGAE&sig=AOD64_2z0ZolR-N6ZZg9V63Ptr2WoWcncA&client=ca-pub-4573231550355221&rf=4&nb=0&adurl=https://www.questico.de/hellsehen-und-wahrsagen/1disadwhellml080825.html%3Futm_source%3Dgoogle%26utm_medium%3DDisplay%26utm_campaign%3D1disadwhellml080825%26opt%3D0%26aff_id%3Dgo_qa_rtg_wett%26network%3Dd%26campaignid%3D22886356264%26extensionID%3D%26adgroupid%3D190511739824%26creative%3D768774791165%26keyword%3D%26matchtype%3D%26seiten%3Ddemoqa.com%26targetid%3D%26adid%3D768774791165%26gad_source%3D5%26gad_campaignid%3D22886356264%26gclid%3DEAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE
+          - link "Öffnen" [ref=f4e14] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CEPSt1CteadvmHoyF9fgPoK2GiAP1p7aIhAHIsvDZ-hSYrfvmiQ4QASDG-9Z5YMvUtAWgAfK40fkDyAEJqQKrwNWa4p2zPuACAKgDAcgDCqoEiQJP0HesxzcTDm1ax0sc4ltrCwChfwnO9T5YJ9V2i-fEzpAyWn0OCtUeMuPTx8JebAQxIv1Y-ZNi2JbAjxYEwy5mn7sNVbMw5ZM2IgDl0uuOIa6cY_4RuAwyfbTAK1H1C6-aXNWuNndkGk4tcXc7Tql2_rVwveH31V4XzNUIE_cP2n-ysYqgMMAPJXZCm92VUejLFMdbqT-nqMxxrlgEPjpOMkNzo7S-dlY2akdcn_Kz27C5mJ7GkRnqJsBoPu1EByivbb90wKx08jryXnuVUzI5yip65k2z9z2wcpioZpJrYJWMYro_r-ExEmFgO_1U2GM2qD7-J49rL46MdHRj9-NsdlHqFtTV9FsvwASw54nbxQXgBAGIBaiqiKFVoAYugAf2xq4GqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAfKqbECqAfrpbECqAfqsbECqAeZtbECqAe-t7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnQEyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY_tWrgpP5kQPyCBthZHgtc3Vic3luLTM1MjA2MTczNDE2NjU1OTKxCciZ-1PQnvFCgAoDmAsByAsBgAwBogwLKgYKBNbasQKQAQHaDBEKCxCAoJ-f8f-rtPkBEgIBA6oNAlBLyA0B4g0TCPWVrIKT-ZEDFYxCHQkdoJYBMeoNEwj_9KyCk_mRAxWMQh0JHaCWATHwDQKIDv___________wG4E-QD2BMOiBQB0BUBmBYByhYCCgD4FgGAFwGyFw4YASoKNjE2ODU3NjUwNboXAjgBqhgXCQAAAADIxAJBEgo2MTY4NTc2NTA1GAGyGAkSAp1pGC4iAQDQGAHoGAHCGQIIAQ&ae=1&ase=2&gclid=EAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE&num=1&cid=CAQSoAEAwksa0W8K7qtlc51dQeQlNn-6k8AyRNcrH4Pc32PHkq4OHcgHspU4nKrhFOerlnmZE6bITfheUkuqgPUY1fI3l7hvLsgC0zrSKNG1xhzlaOZOjkq-KRJ8ifI-pE6Q5GwrU_sdmvYXRnj3LMC1gh9dDKP9ua3qhxVdNhZ-gkfZzGqEOuTOk7SvA5mILJbsUGI7E0WH7MsEG8xlCTxRRp9cGAE&sig=AOD64_2z0ZolR-N6ZZg9V63Ptr2WoWcncA&client=ca-pub-4573231550355221&rf=4&nb=8&adurl=https://www.questico.de/hellsehen-und-wahrsagen/1disadwhellml080825.html%3Futm_source%3Dgoogle%26utm_medium%3DDisplay%26utm_campaign%3D1disadwhellml080825%26opt%3D0%26aff_id%3Dgo_qa_rtg_wett%26network%3Dd%26campaignid%3D22886356264%26extensionID%3D%26adgroupid%3D190511739824%26creative%3D768774791165%26keyword%3D%26matchtype%3D%26seiten%3Ddemoqa.com%26targetid%3D%26adid%3D768774791165%26gad_source%3D5%26gad_campaignid%3D22886356264%26gclid%3DEAIaIQobChMI26CtgpP5kQMVjEIdCR2glgExEAEYASAAEgL81_D_BwE
+            - generic [ref=f4e16]: Öffnen
+        - generic [ref=f4e18]:
+          - link [ref=f4e20] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_47V5DZIf3IvbH4gkvIIpIek2vJtYZvlLkrsv1_PfNFEl34cIw8-qJ23kqyZgTM768hYBWDg7YzBxieQ9mqKlerCCyj-ikigA_JfosdLIGEudEaBvmAzIvCdmXk5bl0jFiZLN0mcqFruliXhpu_4fmjfmdzd4nYVE5ksqwHzycCVln95wQ7AxcZ1HTmwYpXLBFaqJLVs40SdRD0UqhWNFSYe95GbwYz0_ex8n3YMGeLnED4N2b6VeMqG4XxnusPRVtZ4G37a8qf30IjCw0gsux5ifDDuciMyjU-txJ9zM9bpYaERsPVQ6tYkiwip_X-9BpvBCX-pXTHYzNOFtELU6Vy6aLDIO7t5ImmfsiVBbSMdXX2ho8_SO-vZU7glCAKOBAY4dvZVeRUKkPepgrErLWDcFQRGryPPSSbf14OKOa3HuxQyQv1pRjR7iBhyfJaXDnBRrA41E4m5jHRBRJCljlNeUmUnkF1HUaVzF2tJ25bDz7coyL_s9h53-CJgaIEioDoy2NEwf-oJnVetrWLdAYns086Gjj-XXoGOIdveJzwWv8wD1w-KTq3rX9f3-w8QnnkSPkbRkLLwxU93zqdY2n-sYNNKV6R-0CP8oJnckdYzTNoY_sfp1bPCfC797cAFUmOCCokSMl6PO-ByifwRl1GPW0ujmSzKfphEYug9CchErO9lDUfbioVQeHGGoFlrlhSMoHwv7dMxbIwzK8c4HXynVgN3c6nK1-b2-3Y-rLKa4Rw_2oNtiDrfTtwnllOHvLbpDe8c7tef9ECED3X12IdrHZBnhJRVj5REV-kIooihoeOlFSqbzsPnxNvHwmjygVEfZaBNlycA3lP9PczM97a-PBERddApOcJUl0GOc9JVcslFarkXopWCm8Wr43jtSkCSL2F3p8AsEP7yYzjMXzB6mpiT1r4NzrgR_mlIUijNhKSgvfO5YdICryMh8TsSmXQWibBhPtyW20pczfaEcCcR7ApI2kitvrDAmucQp7tiYm8KNqVPS-vKcJdZG3H6-12Fq6uf8nTqaiCm1VaMuOAwMkVVqz3370ho8W9ddJbVgtVgj_pYeuOGClEEtfLmdZInPGnJ3cP2oN4kUPEdusdZAV6E-Z1ll33vKFC37DKRd2meGJYSiUxgeuR6VFMkyIrweGCjbNQVCIFGle0jtYFzWpRdl-_y482EBB40m3FuCeiibJM1_BDOJF_c-xyQxeztjjacQ6sUtpj_WStCQBEOuj-Dw6GqT2VgYYIxQpJfm1bFbDD7gvg9WIJHHEVjPr9PzWvlgztBamqyJbxZziYjurRKkimocm61wGwyUIddKHArpIt2eyu6gSeURykwkZKgKYCW0KWC3Nbn9GzVLODbiVcEpflC5eIKiFeFaxYipmJcXYiKtkq0zm_47wPS6J32ZS4AILsBHBRSRcQlu-sE_47HiB9-CuOJI9WEWdTWReUdVIK5AVDkP66tDxJOHEHRoVNEPuhGqnBkz3bGhOsApbmGB0ES0Uy5o7RnYyZm7htDJU04B-F0hypJrPqNQhZs7gO6KjK4EX93jqn-MueK8uD8FNUk3vj8rqvK6XE7R5Fa5IN_y7JTOlbIjnAarfnNcNQIswhCmGd0TMLn3smX9KgJqQAxU0uhWrdUnlLSV6KWuevqxl0FMaIbiHT-58Tvd4wGysi-TKD2DKsEVZk7L2sGgwXWcPmug7HQ-ZHuGaXQEfXoDYdFOa4Yhml04UYS6r-6j7a3ZwDJqZwXoR73QtGfSuWkOpD_qi8R0AfO4h-S0nAC9CliMV3BN9ZbpPWeYg2kYKf4ACFQpRAvDGmmCESuWMfN9fJqKNSM33dQP55jYpDCeDTVndqU71Ja5aqxAB0318E981uhuMF7A9C-FEubzj8bNFbO8expKZsg9NlM2dj-6frByLCYTBkFlgpvqf40GkWbOdaS1P_BaAw2n5TvFt4DSeDpYOOLs5Ji-oVQQGElfdv0oiK2s9jHFKYPLjejeILx6poJQlrzWcMBNZdvuJ03qR_Sgv_Inh31nNtAKt947tLH_o-IWyLgFlhRlSmmE4vOUjIQSZcYNREt-paAAOO1E6WeJ9FcbNdEsHO_k85Nie_m1wZXo92LjCIgrXHD7DKTLzsqLHoeSbuKSsqzIfHPAMsNak6YLSSM5sv8_PlwAbRv1gRRfIk-rc0jtbwRMKGQ3DRwDLSjlRTdzA69Enp0qxvZH4DnBwTdB-faq2tiMiOEfG6n_I_rZSAGucEEopuTyGuST7_eY686aKPevfeTDIgnrSJ1e2Z1aUtwGekjXNemrJnDGt-hZfXmXLd4PCHbbxkIOinkmyUhuLPGwLa-GhV7lRgoddpo7V3b0-Iwpbd8fUkgm2B6pz2c3nWk0gxzX5FK37mMEMHajvKHwNomDHCONypNw5LpWVcag6k4VtanyryLS1-4SrUX7y5G7TcImbjTPPCuSit2D56cf5YJIlhu7utNzIgs6OEuIkEduD36UulIJdlzPpV0moLDR5XXjpIl6oHQxaw17jJ8sYx2hymPPnf2g&opi=122715837
+            - img [ref=f4e22]
+          - link [ref=f4e24] [cursor=pointer]:
+            - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_47V5DZIf3IvbH4gkvIIpIek2vJtYZvlLkrsv1_PfNFEl34cIw8-qJ23kqyZgTM768hYBWDg7YzBxieQ9mqKlerCCyj-ikigA_JfosdLIGEudEaBvmAzIvCdmXk5bl0jFiZLN0mcqFruliXhpu_4fmjfmdzd4nYVE5ksqwHzycCVln95wQ7AxcZ1HTmwYpXLBFaqJLVs40SdRD0UqhWNFSYe95GbwYz0_ex8n3YMGeLnED4N2b6VeMqG4XxnusPRVtZ4G37a8qf30IjCw0gsux5ifDDuciMyjU-txJ9zM9bpYaERsPVQ6tYkiwip_X-9BpvBCX-pXTHYzNOFtELU6Vy6aLDIO7t5ImmfsiVBbSMdXX2ho8_SO-vZU7glCAKOBAY4dvZVeRUKkPepgrErLWDcFQRGryPPSSbf14OKOa3HuxQyQv1pRjR7iBhyfJaXDnBRrA41E4m5jHRBRJCljlNeUmUnkF1HUaVzF2tJ25bDz7coyL_s9h53-CJgaIEioDoy2NEwf-oJnVetrWLdAYns086Gjj-XXoGOIdveJzwWv8wD1w-KTq3rX9f3-w8QnnkSPkbRkLLwxU93zqdY2n-sYNNKV6R-0CP8oJnckdYzTNoY_sfp1bPCfC797cAFUmOCCokSMl6PO-ByifwRl1GPW0ujmSzKfphEYug9CchErO9lDUfbioVQeHGGoFlrlhSMoHwv7dMxbIwzK8c4HXynVgN3c6nK1-b2-3Y-rLKa4Rw_2oNtiDrfTtwnllOHvLbpDe8c7tef9ECED3X12IdrHZBnhJRVj5REV-kIooihoeOlFSqbzsPnxNvHwmjygVEfZaBNlycA3lP9PczM97a-PBERddApOcJUl0GOc9JVcslFarkXopWCm8Wr43jtSkCSL2F3p8AsEP7yYzjMXzB6mpiT1r4NzrgR_mlIUijNhKSgvfO5YdICryMh8TsSmXQWibBhPtyW20pczfaEcCcR7ApI2kitvrDAmucQp7tiYm8KNqVPS-vKcJdZG3H6-12Fq6uf8nTqaiCm1VaMuOAwMkVVqz3370ho8W9ddJbVgtVgj_pYeuOGClEEtfLmdZInPGnJ3cP2oN4kUPEdusdZAV6E-Z1ll33vKFC37DKRd2meGJYSiUxgeuR6VFMkyIrweGCjbNQVCIFGle0jtYFzWpRdl-_y482EBB40m3FuCeiibJM1_BDOJF_c-xyQxeztjjacQ6sUtpj_WStCQBEOuj-Dw6GqT2VgYYIxQpJfm1bFbDD7gvg9WIJHHEVjPr9PzWvlgztBamqyJbxZziYjurRKkimocm61wGwyUIddKHArpIt2eyu6gSeURykwkZKgKYCW0KWC3Nbn9GzVLODbiVcEpflC5eIKiFeFaxYipmJcXYiKtkq0zm_47wPS6J32ZS4AILsBHBRSRcQlu-sE_47HiB9-CuOJI9WEWdTWReUdVIK5AVDkP66tDxJOHEHRoVNEPuhGqnBkz3bGhOsApbmGB0ES0Uy5o7RnYyZm7htDJU04B-F0hypJrPqNQhZs7gO6KjK4EX93jqn-MueK8uD8FNUk3vj8rqvK6XE7R5Fa5IN_y7JTOlbIjnAarfnNcNQIswhCmGd0TMLn3smX9KgJqQAxU0uhWrdUnlLSV6KWuevqxl0FMaIbiHT-58Tvd4wGysi-TKD2DKsEVZk7L2sGgwXWcPmug7HQ-ZHuGaXQEfXoDYdFOa4Yhml04UYS6r-6j7a3ZwDJqZwXoR73QtGfSuWkOpD_qi8R0AfO4h-S0nAC9CliMV3BN9ZbpPWeYg2kYKf4ACFQpRAvDGmmCESuWMfN9fJqKNSM33dQP55jYpDCeDTVndqU71Ja5aqxAB0318E981uhuMF7A9C-FEubzj8bNFbO8expKZsg9NlM2dj-6frByLCYTBkFlgpvqf40GkWbOdaS1P_BaAw2n5TvFt4DSeDpYOOLs5Ji-oVQQGElfdv0oiK2s9jHFKYPLjejeILx6poJQlrzWcMBNZdvuJ03qR_Sgv_Inh31nNtAKt947tLH_o-IWyLgFlhRlSmmE4vOUjIQSZcYNREt-paAAOO1E6WeJ9FcbNdEsHO_k85Nie_m1wZXo92LjCIgrXHD7DKTLzsqLHoeSbuKSsqzIfHPAMsNak6YLSSM5sv8_PlwAbRv1gRRfIk-rc0jtbwRMKGQ3DRwDLSjlRTdzA69Enp0qxvZH4DnBwTdB-faq2tiMiOEfG6n_I_rZSAGucEEopuTyGuST7_eY686aKPevfeTDIgnrSJ1e2Z1aUtwGekjXNemrJnDGt-hZfXmXLd4PCHbbxkIOinkmyUhuLPGwLa-GhV7lRgoddpo7V3b0-Iwpbd8fUkgm2B6pz2c3nWk0gxzX5FK37mMEMHajvKHwNomDHCONypNw5LpWVcag6k4VtanyryLS1-4SrUX7y5G7TcImbjTPPCuSit2D56cf5YJIlhu7utNzIgs6OEuIkEduD36UulIJdlzPpV0moLDR5XXjpIl6oHQxaw17jJ8sYx2hymPPnf2g&opi=122715837
+            - img [ref=f4e26]
+        - img [ref=f4e29] [cursor=pointer]
+        - generic [ref=f4e40]:
+          - img [ref=f4e43]
+          - generic [ref=f4e46]:
+            - text: Ads by
+            - img [ref=f4e47]
+          - generic [ref=f4e50]:
+            - generic [ref=f4e53] [cursor=pointer]: Send feedback
+            - link [ref=f4e55] [cursor=pointer]:
+              - /url: https://adssettings.google.com/whythisad?source=display&reasons=AUJjZ_47V5DZIf3IvbH4gkvIIpIek2vJtYZvlLkrsv1_PfNFEl34cIw8-qJ23kqyZgTM768hYBWDg7YzBxieQ9mqKlerCCyj-ikigA_JfosdLIGEudEaBvmAzIvCdmXk5bl0jFiZLN0mcqFruliXhpu_4fmjfmdzd4nYVE5ksqwHzycCVln95wQ7AxcZ1HTmwYpXLBFaqJLVs40SdRD0UqhWNFSYe95GbwYz0_ex8n3YMGeLnED4N2b6VeMqG4XxnusPRVtZ4G37a8qf30IjCw0gsux5ifDDuciMyjU-txJ9zM9bpYaERsPVQ6tYkiwip_X-9BpvBCX-pXTHYzNOFtELU6Vy6aLDIO7t5ImmfsiVBbSMdXX2ho8_SO-vZU7glCAKOBAY4dvZVeRUKkPepgrErLWDcFQRGryPPSSbf14OKOa3HuxQyQv1pRjR7iBhyfJaXDnBRrA41E4m5jHRBRJCljlNeUmUnkF1HUaVzF2tJ25bDz7coyL_s9h53-CJgaIEioDoy2NEwf-oJnVetrWLdAYns086Gjj-XXoGOIdveJzwWv8wD1w-KTq3rX9f3-w8QnnkSPkbRkLLwxU93zqdY2n-sYNNKV6R-0CP8oJnckdYzTNoY_sfp1bPCfC797cAFUmOCCokSMl6PO-ByifwRl1GPW0ujmSzKfphEYug9CchErO9lDUfbioVQeHGGoFlrlhSMoHwv7dMxbIwzK8c4HXynVgN3c6nK1-b2-3Y-rLKa4Rw_2oNtiDrfTtwnllOHvLbpDe8c7tef9ECED3X12IdrHZBnhJRVj5REV-kIooihoeOlFSqbzsPnxNvHwmjygVEfZaBNlycA3lP9PczM97a-PBERddApOcJUl0GOc9JVcslFarkXopWCm8Wr43jtSkCSL2F3p8AsEP7yYzjMXzB6mpiT1r4NzrgR_mlIUijNhKSgvfO5YdICryMh8TsSmXQWibBhPtyW20pczfaEcCcR7ApI2kitvrDAmucQp7tiYm8KNqVPS-vKcJdZG3H6-12Fq6uf8nTqaiCm1VaMuOAwMkVVqz3370ho8W9ddJbVgtVgj_pYeuOGClEEtfLmdZInPGnJ3cP2oN4kUPEdusdZAV6E-Z1ll33vKFC37DKRd2meGJYSiUxgeuR6VFMkyIrweGCjbNQVCIFGle0jtYFzWpRdl-_y482EBB40m3FuCeiibJM1_BDOJF_c-xyQxeztjjacQ6sUtpj_WStCQBEOuj-Dw6GqT2VgYYIxQpJfm1bFbDD7gvg9WIJHHEVjPr9PzWvlgztBamqyJbxZziYjurRKkimocm61wGwyUIddKHArpIt2eyu6gSeURykwkZKgKYCW0KWC3Nbn9GzVLODbiVcEpflC5eIKiFeFaxYipmJcXYiKtkq0zm_47wPS6J32ZS4AILsBHBRSRcQlu-sE_47HiB9-CuOJI9WEWdTWReUdVIK5AVDkP66tDxJOHEHRoVNEPuhGqnBkz3bGhOsApbmGB0ES0Uy5o7RnYyZm7htDJU04B-F0hypJrPqNQhZs7gO6KjK4EX93jqn-MueK8uD8FNUk3vj8rqvK6XE7R5Fa5IN_y7JTOlbIjnAarfnNcNQIswhCmGd0TMLn3smX9KgJqQAxU0uhWrdUnlLSV6KWuevqxl0FMaIbiHT-58Tvd4wGysi-TKD2DKsEVZk7L2sGgwXWcPmug7HQ-ZHuGaXQEfXoDYdFOa4Yhml04UYS6r-6j7a3ZwDJqZwXoR73QtGfSuWkOpD_qi8R0AfO4h-S0nAC9CliMV3BN9ZbpPWeYg2kYKf4ACFQpRAvDGmmCESuWMfN9fJqKNSM33dQP55jYpDCeDTVndqU71Ja5aqxAB0318E981uhuMF7A9C-FEubzj8bNFbO8expKZsg9NlM2dj-6frByLCYTBkFlgpvqf40GkWbOdaS1P_BaAw2n5TvFt4DSeDpYOOLs5Ji-oVQQGElfdv0oiK2s9jHFKYPLjejeILx6poJQlrzWcMBNZdvuJ03qR_Sgv_Inh31nNtAKt947tLH_o-IWyLgFlhRlSmmE4vOUjIQSZcYNREt-paAAOO1E6WeJ9FcbNdEsHO_k85Nie_m1wZXo92LjCIgrXHD7DKTLzsqLHoeSbuKSsqzIfHPAMsNak6YLSSM5sv8_PlwAbRv1gRRfIk-rc0jtbwRMKGQ3DRwDLSjlRTdzA69Enp0qxvZH4DnBwTdB-faq2tiMiOEfG6n_I_rZSAGucEEopuTyGuST7_eY686aKPevfeTDIgnrSJ1e2Z1aUtwGekjXNemrJnDGt-hZfXmXLd4PCHbbxkIOinkmyUhuLPGwLa-GhV7lRgoddpo7V3b0-Iwpbd8fUkgm2B6pz2c3nWk0gxzX5FK37mMEMHajvKHwNomDHCONypNw5LpWVcag6k4VtanyryLS1-4SrUX7y5G7TcImbjTPPCuSit2D56cf5YJIlhu7utNzIgs6OEuIkEduD36UulIJdlzPpV0moLDR5XXjpIl6oHQxaw17jJ8sYx2hymPPnf2g&opi=122715837
+              - generic [ref=f4e56]:
+                - text: Why this ad?
+                - img [ref=f4e57]
+        - generic [ref=f4e59]:
+          - generic [ref=f4e62] [cursor=pointer]: Ad was inappropriate
+          - generic [ref=f4e65] [cursor=pointer]: Ad covered content
+          - generic [ref=f4e68] [cursor=pointer]: Seen this ad multiple times
+          - generic [ref=f4e71] [cursor=pointer]: Not interested in this ad
+        - generic [ref=f4e77]: Thanks. Feedback improves Google ads
+        - generic [ref=f4e83]:
+          - text: Ad closed by
+          - img [ref=f4e84]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e25]
+            - text: Elements
+          - img [ref=e30]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - text: Forms
+          - img [ref=e45]
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - text: Alerts, Frame & Windows
+          - img [ref=e59]
+        - generic [ref=e63]:
+          - generic [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]:
+              - img [ref=e68]
+              - text: Widgets
+            - img [ref=e73]
+          - list [ref=e78]:
+            - listitem [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e82]: Accordian
+            - listitem [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: Auto Complete
+            - listitem [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e90]: Date Picker
+            - listitem [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e94]: Slider
+            - listitem [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Progress Bar
+            - listitem [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - generic [ref=e102]: Tabs
+            - listitem [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - generic [ref=e106]: Tool Tips
+            - listitem [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - generic [ref=e110]: Menu
+            - listitem [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+              - generic [ref=e114]: Select Menu
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - text: Interactions
+          - img [ref=e125]
+        - generic [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img [ref=e134]
+            - text: Book Store Application
+          - img [ref=e139]
+      - generic [ref=e144]:
+        - heading "Date Picker" [level=1] [ref=e145]
+        - generic [ref=e146]:
+          - generic [ref=e147]: Select Date
+          - generic [ref=e148]:
+            - textbox [active] [ref=e151]: 01/07/2026
+            - generic [ref=e154]:
+              - button "Previous Month" [ref=e156] [cursor=pointer]
+              - button "Next Month" [ref=e157] [cursor=pointer]
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: January 2026
+                  - generic [ref=e161]:
+                    - combobox [ref=e163]:
+                      - option "January" [selected]
+                      - option "February"
+                      - option "March"
+                      - option "April"
+                      - option "May"
+                      - option "June"
+                      - option "July"
+                      - option "August"
+                      - option "September"
+                      - option "October"
+                      - option "November"
+                      - option "December"
+                    - combobox [ref=e165]:
+                      - option "1900"
+                      - option "1901"
+                      - option "1902"
+                      - option "1903"
+                      - option "1904"
+                      - option "1905"
+                      - option "1906"
+                      - option "1907"
+                      - option "1908"
+                      - option "1909"
+                      - option "1910"
+                      - option "1911"
+                      - option "1912"
+                      - option "1913"
+                      - option "1914"
+                      - option "1915"
+                      - option "1916"
+                      - option "1917"
+                      - option "1918"
+                      - option "1919"
+                      - option "1920"
+                      - option "1921"
+                      - option "1922"
+                      - option "1923"
+                      - option "1924"
+                      - option "1925"
+                      - option "1926"
+                      - option "1927"
+                      - option "1928"
+                      - option "1929"
+                      - option "1930"
+                      - option "1931"
+                      - option "1932"
+                      - option "1933"
+                      - option "1934"
+                      - option "1935"
+                      - option "1936"
+                      - option "1937"
+                      - option "1938"
+                      - option "1939"
+                      - option "1940"
+                      - option "1941"
+                      - option "1942"
+                      - option "1943"
+                      - option "1944"
+                      - option "1945"
+                      - option "1946"
+                      - option "1947"
+                      - option "1948"
+                      - option "1949"
+                      - option "1950"
+                      - option "1951"
+                      - option "1952"
+                      - option "1953"
+                      - option "1954"
+                      - option "1955"
+                      - option "1956"
+                      - option "1957"
+                      - option "1958"
+                      - option "1959"
+                      - option "1960"
+                      - option "1961"
+                      - option "1962"
+                      - option "1963"
+                      - option "1964"
+                      - option "1965"
+                      - option "1966"
+                      - option "1967"
+                      - option "1968"
+                      - option "1969"
+                      - option "1970"
+                      - option "1971"
+                      - option "1972"
+                      - option "1973"
+                      - option "1974"
+                      - option "1975"
+                      - option "1976"
+                      - option "1977"
+                      - option "1978"
+                      - option "1979"
+                      - option "1980"
+                      - option "1981"
+                      - option "1982"
+                      - option "1983"
+                      - option "1984"
+                      - option "1985"
+                      - option "1986"
+                      - option "1987"
+                      - option "1988"
+                      - option "1989"
+                      - option "1990"
+                      - option "1991"
+                      - option "1992"
+                      - option "1993"
+                      - option "1994"
+                      - option "1995"
+                      - option "1996"
+                      - option "1997"
+                      - option "1998"
+                      - option "1999"
+                      - option "2000"
+                      - option "2001"
+                      - option "2002"
+                      - option "2003"
+                      - option "2004"
+                      - option "2005"
+                      - option "2006"
+                      - option "2007"
+                      - option "2008"
+                      - option "2009"
+                      - option "2010"
+                      - option "2011"
+                      - option "2012"
+                      - option "2013"
+                      - option "2014"
+                      - option "2015"
+                      - option "2016"
+                      - option "2017"
+                      - option "2018"
+                      - option "2019"
+                      - option "2020"
+                      - option "2021"
+                      - option "2022"
+                      - option "2023"
+                      - option "2024"
+                      - option "2025"
+                      - option "2026" [selected]
+                      - option "2027"
+                      - option "2028"
+                      - option "2029"
+                      - option "2030"
+                      - option "2031"
+                      - option "2032"
+                      - option "2033"
+                      - option "2034"
+                      - option "2035"
+                      - option "2036"
+                      - option "2037"
+                      - option "2038"
+                      - option "2039"
+                      - option "2040"
+                      - option "2041"
+                      - option "2042"
+                      - option "2043"
+                      - option "2044"
+                      - option "2045"
+                      - option "2046"
+                      - option "2047"
+                      - option "2048"
+                      - option "2049"
+                      - option "2050"
+                      - option "2051"
+                      - option "2052"
+                      - option "2053"
+                      - option "2054"
+                      - option "2055"
+                      - option "2056"
+                      - option "2057"
+                      - option "2058"
+                      - option "2059"
+                      - option "2060"
+                      - option "2061"
+                      - option "2062"
+                      - option "2063"
+                      - option "2064"
+                      - option "2065"
+                      - option "2066"
+                      - option "2067"
+                      - option "2068"
+                      - option "2069"
+                      - option "2070"
+                      - option "2071"
+                      - option "2072"
+                      - option "2073"
+                      - option "2074"
+                      - option "2075"
+                      - option "2076"
+                      - option "2077"
+                      - option "2078"
+                      - option "2079"
+                      - option "2080"
+                      - option "2081"
+                      - option "2082"
+                      - option "2083"
+                      - option "2084"
+                      - option "2085"
+                      - option "2086"
+                      - option "2087"
+                      - option "2088"
+                      - option "2089"
+                      - option "2090"
+                      - option "2091"
+                      - option "2092"
+                      - option "2093"
+                      - option "2094"
+                      - option "2095"
+                      - option "2096"
+                      - option "2097"
+                      - option "2098"
+                      - option "2099"
+                      - option "2100"
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: Su
+                    - generic [ref=e168]: Mo
+                    - generic [ref=e169]: Tu
+                    - generic [ref=e170]: We
+                    - generic [ref=e171]: Th
+                    - generic [ref=e172]: Fr
+                    - generic [ref=e173]: Sa
+                - listbox "month 2026-01" [ref=e174]:
+                  - generic [ref=e175]:
+                    - option "Choose Sunday, December 28th, 2025" [ref=e176] [cursor=pointer]: "28"
+                    - option "Choose Monday, December 29th, 2025" [ref=e177] [cursor=pointer]: "29"
+                    - option "Choose Tuesday, December 30th, 2025" [ref=e178] [cursor=pointer]: "30"
+                    - option "Choose Wednesday, December 31st, 2025" [ref=e179] [cursor=pointer]: "31"
+                    - option "Choose Thursday, January 1st, 2026" [ref=e180] [cursor=pointer]: "1"
+                    - option "Choose Friday, January 2nd, 2026" [ref=e181] [cursor=pointer]: "2"
+                    - option "Choose Saturday, January 3rd, 2026" [ref=e182] [cursor=pointer]: "3"
+                  - generic [ref=e183]:
+                    - option "Choose Sunday, January 4th, 2026" [ref=e184] [cursor=pointer]: "4"
+                    - option "Choose Monday, January 5th, 2026" [ref=e185] [cursor=pointer]: "5"
+                    - option "Choose Tuesday, January 6th, 2026" [ref=e186] [cursor=pointer]: "6"
+                    - option "Choose Wednesday, January 7th, 2026" [ref=e187] [cursor=pointer]: "7"
+                    - option "Choose Thursday, January 8th, 2026" [ref=e188] [cursor=pointer]: "8"
+                    - option "Choose Friday, January 9th, 2026" [ref=e189] [cursor=pointer]: "9"
+                    - option "Choose Saturday, January 10th, 2026" [ref=e190] [cursor=pointer]: "10"
+                  - generic [ref=e191]:
+                    - option "Choose Sunday, January 11th, 2026" [ref=e192] [cursor=pointer]: "11"
+                    - option "Choose Monday, January 12th, 2026" [ref=e193] [cursor=pointer]: "12"
+                    - option "Choose Tuesday, January 13th, 2026" [ref=e194] [cursor=pointer]: "13"
+                    - option "Choose Wednesday, January 14th, 2026" [ref=e195] [cursor=pointer]: "14"
+                    - option "Choose Thursday, January 15th, 2026" [ref=e196] [cursor=pointer]: "15"
+                    - option "Choose Friday, January 16th, 2026" [ref=e197] [cursor=pointer]: "16"
+                    - option "Choose Saturday, January 17th, 2026" [ref=e198] [cursor=pointer]: "17"
+                  - generic [ref=e199]:
+                    - option "Choose Sunday, January 18th, 2026" [ref=e200] [cursor=pointer]: "18"
+                    - option "Choose Monday, January 19th, 2026" [ref=e201] [cursor=pointer]: "19"
+                    - option "Choose Tuesday, January 20th, 2026" [ref=e202] [cursor=pointer]: "20"
+                    - option "Choose Wednesday, January 21st, 2026" [ref=e203] [cursor=pointer]: "21"
+                    - option "Choose Thursday, January 22nd, 2026" [ref=e204] [cursor=pointer]: "22"
+                    - option "Choose Friday, January 23rd, 2026" [ref=e205] [cursor=pointer]: "23"
+                    - option "Choose Saturday, January 24th, 2026" [ref=e206] [cursor=pointer]: "24"
+                  - generic [ref=e207]:
+                    - option "Choose Sunday, January 25th, 2026" [ref=e208] [cursor=pointer]: "25"
+                    - option "Choose Monday, January 26th, 2026" [ref=e209] [cursor=pointer]: "26"
+                    - option "Choose Tuesday, January 27th, 2026" [ref=e210] [cursor=pointer]: "27"
+                    - option "Choose Wednesday, January 28th, 2026" [ref=e211] [cursor=pointer]: "28"
+                    - option "Choose Thursday, January 29th, 2026" [ref=e212] [cursor=pointer]: "29"
+                    - option "Choose Friday, January 30th, 2026" [ref=e213] [cursor=pointer]: "30"
+                    - option "Choose Saturday, January 31st, 2026" [ref=e214] [cursor=pointer]: "31"
+                  - generic [ref=e215]:
+                    - option "Choose Sunday, February 1st, 2026" [ref=e216] [cursor=pointer]: "1"
+                    - option "Choose Monday, February 2nd, 2026" [ref=e217] [cursor=pointer]: "2"
+                    - option "Choose Tuesday, February 3rd, 2026" [ref=e218] [cursor=pointer]: "3"
+                    - option "Choose Wednesday, February 4th, 2026" [ref=e219] [cursor=pointer]: "4"
+                    - option "Choose Thursday, February 5th, 2026" [ref=e220] [cursor=pointer]: "5"
+                    - option "Choose Friday, February 6th, 2026" [ref=e221] [cursor=pointer]: "6"
+                    - option "Choose Saturday, February 7th, 2026" [ref=e222] [cursor=pointer]: "7"
+        - generic [ref=e223]:
+          - generic [ref=e224]: Date And Time
+          - textbox [ref=e228]: January 7, 2026 2:48 PM
+      - img "Build PlayWright tests with AI" [ref=e236] [cursor=pointer]
+    - contentinfo [ref=e237]:
+      - generic [ref=e238]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
