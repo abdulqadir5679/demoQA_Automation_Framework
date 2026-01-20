@@ -22,32 +22,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-# ----------------------------------------------------------------
+
+      # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
       # ----------------------------------------------------------------
       - name: "[API] Install Dependencies"
         working-directory: ./GoRest_POM_Automation
         run: npm ci
 
+      # UPDATED STEP: Native PowerShell Version 
       - name: "[API] Create .env File"
         working-directory: ./GoRest_POM_Automation
-        # CRITICAL FIX: We force Windows to use Bash for this step
-        shell: bash
+        # No 'shell: bash' line needed; it defaults to PowerShell on Windows
         run: |
-          # 1. We don't need complex cleaning anymore because you are on your own laptop!
-          # We just write the variables directly using standard Bash syntax.
+          # 1. Create the file with the Base URL (Set-Content overwrites/creates)
+          Set-Content -Path .env -Value "BASE_URL=https://gorest.co.in/public/v2" -Encoding Utf8
           
-          echo "BASE_URL=https://gorest.co.in/public/v2" > .env
-          echo "API_TOKEN=${SECRET_TOKEN}" >> .env
+          # 2. Append the Token (Add-Content adds to the end)
+          Add-Content -Path .env -Value "API_TOKEN=$env:SECRET_TOKEN" -Encoding Utf8
           
-          # Verify file creation
-          echo "✅ .env file created!"
+          # 3. Print success message
+          Write-Host "✅ .env file created successfully using PowerShell!"
         env:
           SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}
 
       - name: "[API] Run Tests"
         working-directory: ./GoRest_POM_Automation
-        # Playwright runs fine in PowerShell, so no shell change needed here
         run: npx playwright test
         continue-on-error: true
 
