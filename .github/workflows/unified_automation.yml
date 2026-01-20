@@ -19,7 +19,7 @@ jobs:
       # 1. Checkout Code
       - uses: actions/checkout@v4
 
-      # 2. Setup Node (FIXED: Added quotes around 'lts/*')
+      # 2. Setup Node
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
@@ -27,15 +27,16 @@ jobs:
       # ----------------------------------------------------------------
       # PART A: UI AUTOMATION (POM_Automation)
       # ----------------------------------------------------------------
-      - name: [UI] Install Dependencies
+      # FIX: Added quotes "..." around names with brackets
+      - name: "[UI] Install Dependencies"
         working-directory: ./POM_Automation
         run: npm ci
 
-      - name: [UI] Install Browsers
+      - name: "[UI] Install Browsers"
         working-directory: ./POM_Automation
         run: npx playwright install chromium --with-deps
 
-      - name: [UI] Run Tests
+      - name: "[UI] Run Tests"
         working-directory: ./POM_Automation
         run: npx playwright test
         continue-on-error: true
@@ -43,17 +44,17 @@ jobs:
       # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
       # ----------------------------------------------------------------
-      - name: [API] Install Dependencies
+      - name: "[API] Install Dependencies"
         working-directory: ./GoRest_POM_Automation
         run: npm ci
 
-      - name: [API] Create .env File
+      - name: "[API] Create .env File"
         working-directory: ./GoRest_POM_Automation
         run: |
           echo "BASE_URL=https://gorest.co.in/public/v2" >> .env
           echo "API_TOKEN=${{ secrets.API_TOKEN }}" >> .env
 
-      - name: [API] Run Tests
+      - name: "[API] Run Tests"
         working-directory: ./GoRest_POM_Automation
         run: npx playwright test
         continue-on-error: true
@@ -99,8 +100,6 @@ jobs:
         run: |
           mkdir -p _site
           # 1. Copy UI Report to Root
-          # We use "cp -rT" (copy content) or standard cp -r depending on availability.
-          # The safest way in GitHub actions is simply copying content.
           if [ -d "allure-history-ui" ]; then cp -r allure-history-ui/* _site/; fi
           
           # 2. Copy API Report to Subfolder
