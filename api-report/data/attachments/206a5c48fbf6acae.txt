@@ -1,2 +1,0 @@
-Base URL is: https://gorest.co.in/public/v2
-SUCCESS: Token is loaded securely! 🔒
