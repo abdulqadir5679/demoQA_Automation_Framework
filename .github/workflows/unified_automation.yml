@@ -23,9 +23,7 @@ jobs:
         with:
           node-version: lts/*
 
-      # ----------------------------------------------------------------
       # PART A: UI AUTOMATION (POM_Automation)
-      # ----------------------------------------------------------------
       - name: [UI] Install Dependencies
         working-directory: ./POM_Automation
         run: npm ci
@@ -39,9 +37,7 @@ jobs:
         run: npx playwright test
         continue-on-error: true
 
-      # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
-      # ----------------------------------------------------------------
       - name: [API] Install Dependencies
         working-directory: ./GoRest_POM_Automation
         run: npm ci
@@ -57,9 +53,7 @@ jobs:
         run: npx playwright test
         continue-on-error: true
 
-      # ----------------------------------------------------------------
       # PART C: HISTORY & REPORT GENERATION
-      # ----------------------------------------------------------------
       - name: Get Previous History (gh-pages)
         uses: actions/checkout@v4
         if: always()
@@ -92,9 +86,7 @@ jobs:
           allure_history: allure-history-api
           keep_reports: 20
 
-      # ----------------------------------------------------------------
       # PART D: CONSOLIDATE & DEPLOY
-      # ----------------------------------------------------------------
       - name: Prepare Site Structure
         if: always()
         run: |
