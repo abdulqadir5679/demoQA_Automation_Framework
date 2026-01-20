@@ -22,29 +22,29 @@ This project contains automated UI tests built with Playwright and the Page Obje
    cd POM_Automation
 Install dependencies:
 
-Bash
+```bash
 
 npm ci
 Install required browsers:
 
-Bash
+```bash
 
 npx playwright install chromium --with-deps
 Running Tests
 To run the full test suite in headless mode:
 
-Bash
+```bash
 
 npx playwright test
 To run tests in UI mode (interactive):
 
-Bash
+```bash
 
 npx playwright test --ui
 Viewing Reports
 To generate and view the Allure report locally after a test run:
 
-Bash
+```bash
 
 npx allure generate allure-results --clean -o allure-report
 npx allure open allure-report
