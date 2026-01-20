@@ -1,4 +1,4 @@
-name: Unified Automation Suite (UI & API)
+name: Unified Automation Suite (API Debug Mode)
 
 on:
   push:
@@ -16,30 +16,27 @@ jobs:
     timeout-minutes: 60
     
     steps:
-      # 1. Checkout Code
       - uses: actions/checkout@v4
 
-      # 2. Setup Node
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
 
       # ----------------------------------------------------------------
-      # PART A: UI AUTOMATION (POM_Automation)
+      # PART A: UI AUTOMATION (DISABLED FOR DEBUGGING 🛑)
       # ----------------------------------------------------------------
-      # FIX: Added quotes "..." around names with brackets
-      - name: "[UI] Install Dependencies"
-        working-directory: ./POM_Automation
-        run: npm ci
+      # - name: "[UI] Install Dependencies"
+      #   working-directory: ./POM_Automation
+      #   run: npm ci
 
-      - name: "[UI] Install Browsers"
-        working-directory: ./POM_Automation
-        run: npx playwright install chromium --with-deps
+      # - name: "[UI] Install Browsers"
+      #   working-directory: ./POM_Automation
+      #   run: npx playwright install chromium --with-deps
 
-      - name: "[UI] Run Tests"
-        working-directory: ./POM_Automation
-        run: npx playwright test
-        continue-on-error: true
+      # - name: "[UI] Run Tests"
+      #   working-directory: ./POM_Automation
+      #   run: npx playwright test
+      #   continue-on-error: true
 
       # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
@@ -70,16 +67,16 @@ jobs:
           ref: gh-pages
           path: gh-pages-history
 
-      # GENERATE UI REPORT
-      - name: Generate UI Report
-        uses: simple-elf/allure-report-action@master
-        if: always()
-        with:
-          allure_results: POM_Automation/allure-results
-          gh_pages: gh-pages-history
-          allure_report: allure-report-ui
-          allure_history: allure-history-ui
-          keep_reports: 20
+      # GENERATE UI REPORT (DISABLED 🛑)
+      # - name: Generate UI Report
+      #   uses: simple-elf/allure-report-action@master
+      #   if: always()
+      #   with:
+      #     allure_results: POM_Automation/allure-results
+      #     gh_pages: gh-pages-history
+      #     allure_report: allure-report-ui
+      #     allure_history: allure-history-ui
+      #     keep_reports: 20
 
       # GENERATE API REPORT
       - name: Generate API Report
@@ -93,18 +90,25 @@ jobs:
           keep_reports: 20
 
       # ----------------------------------------------------------------
-      # PART D: CONSOLIDATE & DEPLOY
+      # PART D: CONSOLIDATE & DEPLOY (FIXED FOR 404 ERROR ✅)
       # ----------------------------------------------------------------
       - name: Prepare Site Structure
         if: always()
         run: |
-          mkdir -p _site
-          # 1. Copy UI Report to Root
-          if [ -d "allure-history-ui" ]; then cp -r allure-history-ui/* _site/; fi
-          
-          # 2. Copy API Report to Subfolder
           mkdir -p _site/api-report
-          if [ -d "allure-history-api" ]; then cp -r allure-history-api/* _site/api-report/; fi
+          
+          # 1. Copy LATEST UI Report (If exists) - kept to preserve old site
+          # Since we skipped UI tests, we try to copy OLD history if current report missing
+          if [ -d "allure-report-ui" ]; then 
+            cp -r allure-report-ui/* _site/
+          elif [ -d "gh-pages-history" ]; then
+            # Fallback: Copy the old site content so the root link doesn't break entirely
+            cp -r gh-pages-history/* _site/ || true
+          fi
+          
+          # 2. Copy LATEST API Report to Subfolder (FIXES 404)
+          # We copy the REPORT, not the history, to the serving folder
+          if [ -d "allure-report-api" ]; then cp -r allure-report-api/* _site/api-report/; fi
 
       - name: Deploy Unified Site to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
