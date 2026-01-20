@@ -19,11 +19,14 @@ jobs:
       # 1. Checkout Code
       - uses: actions/checkout@v4
 
+      # 2. Setup Node (FIXED: Added quotes around 'lts/*')
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: 'lts/*'
 
+      # ----------------------------------------------------------------
       # PART A: UI AUTOMATION (POM_Automation)
+      # ----------------------------------------------------------------
       - name: [UI] Install Dependencies
         working-directory: ./POM_Automation
         run: npm ci
@@ -37,7 +40,9 @@ jobs:
         run: npx playwright test
         continue-on-error: true
 
+      # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
+      # ----------------------------------------------------------------
       - name: [API] Install Dependencies
         working-directory: ./GoRest_POM_Automation
         run: npm ci
@@ -53,7 +58,9 @@ jobs:
         run: npx playwright test
         continue-on-error: true
 
+      # ----------------------------------------------------------------
       # PART C: HISTORY & REPORT GENERATION
+      # ----------------------------------------------------------------
       - name: Get Previous History (gh-pages)
         uses: actions/checkout@v4
         if: always()
@@ -68,7 +75,6 @@ jobs:
         if: always()
         with:
           allure_results: POM_Automation/allure-results
-          # We grab history from root of gh-pages
           gh_pages: gh-pages-history
           allure_report: allure-report-ui
           allure_history: allure-history-ui
@@ -80,23 +86,26 @@ jobs:
         if: always()
         with:
           allure_results: GoRest_POM_Automation/allure-results
-          # We grab history from /api-report/ subfolder
           gh_pages: gh-pages-history/api-report
           allure_report: allure-report-api
           allure_history: allure-history-api
           keep_reports: 20
 
+      # ----------------------------------------------------------------
       # PART D: CONSOLIDATE & DEPLOY
+      # ----------------------------------------------------------------
       - name: Prepare Site Structure
         if: always()
         run: |
           mkdir -p _site
           # 1. Copy UI Report to Root
-          cp -r allure-history-ui/* _site/
+          # We use "cp -rT" (copy content) or standard cp -r depending on availability.
+          # The safest way in GitHub actions is simply copying content.
+          if [ -d "allure-history-ui" ]; then cp -r allure-history-ui/* _site/; fi
           
           # 2. Copy API Report to Subfolder
           mkdir -p _site/api-report
-          cp -r allure-history-api/* _site/api-report/
+          if [ -d "allure-history-api" ]; then cp -r allure-history-api/* _site/api-report/; fi
 
       - name: Deploy Unified Site to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
