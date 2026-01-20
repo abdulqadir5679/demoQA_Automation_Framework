@@ -22,39 +22,32 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-
-      # ----------------------------------------------------------------
+# ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
       # ----------------------------------------------------------------
       - name: "[API] Install Dependencies"
         working-directory: ./GoRest_POM_Automation
         run: npm ci
 
-      - name: "[API] Create .env & Debug"
+      - name: "[API] Create .env File"
         working-directory: ./GoRest_POM_Automation
+        # CRITICAL FIX: We force Windows to use Bash for this step
+        shell: bash
         run: |
-          # 1. Clean the token (Remove invisible Windows characters)
-          CLEAN_TOKEN=$(echo "${{ secrets.FRESH_TOKEN }}" | tr -d '\r' | xargs)
+          # 1. We don't need complex cleaning anymore because you are on your own laptop!
+          # We just write the variables directly using standard Bash syntax.
           
-          # 2. Write to .env
           echo "BASE_URL=https://gorest.co.in/public/v2" > .env
-          echo "API_TOKEN=$CLEAN_TOKEN" >> .env
+          echo "API_TOKEN=${SECRET_TOKEN}" >> .env
           
-          # 3. VERBOSE CURL TEST (The "Stealth" Request)
-          echo "--- STARTING CONNECTIVITY TEST ---"
-          
-          # We try to mimic a real browser with -A (User Agent)
-          # We use -v (Verbose) to see the handshake
-          # We print the RESPONSE BODY to see WHY it failed
-          
-          curl -v -H "Authorization: Bearer $CLEAN_TOKEN" \
-               -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-               https://gorest.co.in/public/v2/users
-          
-          echo "--- END CONNECTIVITY TEST ---"
-          
+          # Verify file creation
+          echo "✅ .env file created!"
+        env:
+          SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}
+
       - name: "[API] Run Tests"
         working-directory: ./GoRest_POM_Automation
+        # Playwright runs fine in PowerShell, so no shell change needed here
         run: npx playwright test
         continue-on-error: true
 
