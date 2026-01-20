@@ -1,4 +1,4 @@
-name: Unified Automation Suite (API Debug Mode)
+name: UI Automation Suite (UI Only)
 
 on:
   push:
@@ -11,9 +11,8 @@ permissions:
   contents: write
 
 jobs:
-  test-and-deploy:
-    # runs-on: ubuntu-latest
-    runs-on: self-hosted
+  ui-test-and-deploy:
+    runs-on: ubuntu-latest # Back to Cloud (Linux) - No laptop runner needed
     timeout-minutes: 60
     
     steps:
@@ -24,35 +23,23 @@ jobs:
           node-version: 'lts/*'
 
       # ----------------------------------------------------------------
-      # PART B: API AUTOMATION (GoRest_POM_Automation)
+      # UI AUTOMATION (POM_Automation)
       # ----------------------------------------------------------------
-      - name: "[API] Install Dependencies"
-        working-directory: ./GoRest_POM_Automation
+      - name: "[UI] Install Dependencies"
+        working-directory: ./POM_Automation
         run: npm ci
 
-      # UPDATED STEP: Native PowerShell Version 
-      - name: "[API] Create .env File"
-        working-directory: ./GoRest_POM_Automation
-        # No 'shell: bash' line needed; it defaults to PowerShell on Windows
-        run: |
-          # 1. Create the file with the Base URL (Set-Content overwrites/creates)
-          Set-Content -Path .env -Value "BASE_URL=https://gorest.co.in/public/v2" -Encoding Utf8
-          
-          # 2. Append the Token (Add-Content adds to the end)
-          Add-Content -Path .env -Value "API_TOKEN=$env:SECRET_TOKEN" -Encoding Utf8
-          
-          # 3. Print success message
-          Write-Host "✅ .env file created successfully using PowerShell!"
-        env:
-          SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}
+      - name: "[UI] Install Browsers"
+        working-directory: ./POM_Automation
+        run: npx playwright install chromium --with-deps
 
-      - name: "[API] Run Tests"
-        working-directory: ./GoRest_POM_Automation
+      - name: "[UI] Run Tests"
+        working-directory: ./POM_Automation
         run: npx playwright test
         continue-on-error: true
 
       # ----------------------------------------------------------------
-      # PART C: HISTORY & REPORT GENERATION
+      # REPORT GENERATION
       # ----------------------------------------------------------------
       - name: Get Previous History (gh-pages)
         uses: actions/checkout@v4
@@ -62,35 +49,27 @@ jobs:
           ref: gh-pages
           path: gh-pages-history
 
-      - name: Generate API Report
+      - name: Generate UI Report
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
-          allure_results: GoRest_POM_Automation/allure-results
-          gh_pages: gh-pages-history/api-report
-          allure_report: allure-report-api
-          allure_history: allure-history-api
+          allure_results: POM_Automation/allure-results
+          gh_pages: gh-pages-history
+          allure_report: allure-report-ui
+          allure_history: allure-history-ui
           keep_reports: 20
 
       # ----------------------------------------------------------------
-      # PART D: CONSOLIDATE & DEPLOY
+      # DEPLOY TO GITHUB PAGES
       # ----------------------------------------------------------------
       - name: Prepare Site Structure
         if: always()
         run: |
-          mkdir -p _site/api-report
-          
-          # UI Report (Preserve Old)
-          if [ -d "allure-report-ui" ]; then 
-            cp -r allure-report-ui/* _site/
-          elif [ -d "gh-pages-history" ]; then
-            cp -r gh-pages-history/* _site/ || true
-          fi
-          
-          # API Report (New)
-          if [ -d "allure-report-api" ]; then cp -r allure-report-api/* _site/api-report/; fi
+          mkdir -p _site
+          # Copy UI Report to Root (Standard Linux commands work here)
+          if [ -d "allure-history-ui" ]; then cp -r allure-history-ui/* _site/; fi
 
-      - name: Deploy Unified Site to GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: always()
         with:
