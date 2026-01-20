@@ -29,44 +29,27 @@ jobs:
         working-directory: ./GoRest_POM_Automation
         run: npm ci
 
-      # FIX 1: Robust .env Creation
-      # We verify the secret length and trim whitespace
-      - name: "[API] Create .env File & Verify Secret"
+      # UPDATED: We use the new FRESH_TOKEN here
+      - name: "[API] Create .env File"
         working-directory: ./GoRest_POM_Automation
         run: |
-          # 1. Check if secret exists (Print length, NOT value)
-          TOKEN_LEN=${#SECRET_TOKEN}
-          echo "Secret Token Length: $TOKEN_LEN"
+          # We print the length to verify GitHub is reading it (should be ~64 chars)
+          echo "Token Length: ${#SECRET_TOKEN}"
           
-          if [ "$TOKEN_LEN" -lt 10 ]; then
-            echo "❌ ERROR: API_TOKEN is empty or too short. Check GitHub Secrets!"
-            exit 1
-          fi
-
-          # 2. Write to .env (Using 'sed' to strip accidental spaces)
+          # Write to .env
           echo "BASE_URL=https://gorest.co.in/public/v2" > .env
           echo "API_TOKEN=${SECRET_TOKEN}" >> .env
-          
-          # 3. Verify .env was created
-          echo "✅ .env file created successfully."
         env:
-          SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}
+          SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}   # <--- CHANGED THIS NAME
 
-      # FIX 2: Direct CURL Test
-      # This tests the token directly, bypassing Playwright code.
+      # DEBUG STEP: We test connectivity before running the full suite
       - name: "[API] Debug Connectivity (CURL)"
         run: |
-          echo "Testing Token with CURL..."
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer ${{ secrets.FRESH_TOKEN }}" https://gorest.co.in/public/v2/users)
-          
           echo "GoRest API Response Code: $HTTP_CODE"
-          
           if [ "$HTTP_CODE" -ne 200 ]; then
-             echo "❌ CRITICAL FAILURE: The Token itself is being rejected by GoRest."
-             echo "Double check: Did you copy 'Bearer ' into the secret? (You should NOT)."
+             echo "❌ CI FAILURE: Token rejected by Server."
              exit 1
-          else
-             echo "✅ SUCCESS: Token is valid and working!"
           fi
 
       - name: "[API] Run Tests"
