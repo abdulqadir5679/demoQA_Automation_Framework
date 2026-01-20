@@ -50,14 +50,14 @@ jobs:
           # 3. Verify .env was created
           echo "✅ .env file created successfully."
         env:
-          SECRET_TOKEN: ${{ secrets.API_TOKEN }}
+          SECRET_TOKEN: ${{ secrets.FRESH_TOKEN }}
 
       # FIX 2: Direct CURL Test
       # This tests the token directly, bypassing Playwright code.
       - name: "[API] Debug Connectivity (CURL)"
         run: |
           echo "Testing Token with CURL..."
-          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" https://gorest.co.in/public/v2/users)
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer ${{ secrets.FRESH_TOKEN }}" https://gorest.co.in/public/v2/users)
           
           echo "GoRest API Response Code: $HTTP_CODE"
           
