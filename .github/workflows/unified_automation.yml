@@ -23,33 +23,51 @@ jobs:
           node-version: 'lts/*'
 
       # ----------------------------------------------------------------
-      # PART A: UI AUTOMATION (DISABLED FOR DEBUGGING 🛑)
-      # ----------------------------------------------------------------
-      # - name: "[UI] Install Dependencies"
-      #   working-directory: ./POM_Automation
-      #   run: npm ci
-
-      # - name: "[UI] Install Browsers"
-      #   working-directory: ./POM_Automation
-      #   run: npx playwright install chromium --with-deps
-
-      # - name: "[UI] Run Tests"
-      #   working-directory: ./POM_Automation
-      #   run: npx playwright test
-      #   continue-on-error: true
-
-      # ----------------------------------------------------------------
       # PART B: API AUTOMATION (GoRest_POM_Automation)
       # ----------------------------------------------------------------
       - name: "[API] Install Dependencies"
         working-directory: ./GoRest_POM_Automation
         run: npm ci
 
-      - name: "[API] Create .env File"
+      # FIX 1: Robust .env Creation
+      # We verify the secret length and trim whitespace
+      - name: "[API] Create .env File & Verify Secret"
         working-directory: ./GoRest_POM_Automation
         run: |
-          echo "BASE_URL=https://gorest.co.in/public/v2" >> .env
-          echo "API_TOKEN=${{ secrets.API_TOKEN }}" >> .env
+          # 1. Check if secret exists (Print length, NOT value)
+          TOKEN_LEN=${#SECRET_TOKEN}
+          echo "Secret Token Length: $TOKEN_LEN"
+          
+          if [ "$TOKEN_LEN" -lt 10 ]; then
+            echo "❌ ERROR: API_TOKEN is empty or too short. Check GitHub Secrets!"
+            exit 1
+          fi
+
+          # 2. Write to .env (Using 'sed' to strip accidental spaces)
+          echo "BASE_URL=https://gorest.co.in/public/v2" > .env
+          echo "API_TOKEN=${SECRET_TOKEN}" >> .env
+          
+          # 3. Verify .env was created
+          echo "✅ .env file created successfully."
+        env:
+          SECRET_TOKEN: ${{ secrets.API_TOKEN }}
+
+      # FIX 2: Direct CURL Test
+      # This tests the token directly, bypassing Playwright code.
+      - name: "[API] Debug Connectivity (CURL)"
+        run: |
+          echo "Testing Token with CURL..."
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -H "Authorization: Bearer ${{ secrets.API_TOKEN }}" https://gorest.co.in/public/v2/users)
+          
+          echo "GoRest API Response Code: $HTTP_CODE"
+          
+          if [ "$HTTP_CODE" -ne 200 ]; then
+             echo "❌ CRITICAL FAILURE: The Token itself is being rejected by GoRest."
+             echo "Double check: Did you copy 'Bearer ' into the secret? (You should NOT)."
+             exit 1
+          else
+             echo "✅ SUCCESS: Token is valid and working!"
+          fi
 
       - name: "[API] Run Tests"
         working-directory: ./GoRest_POM_Automation
@@ -67,18 +85,6 @@ jobs:
           ref: gh-pages
           path: gh-pages-history
 
-      # GENERATE UI REPORT (DISABLED 🛑)
-      # - name: Generate UI Report
-      #   uses: simple-elf/allure-report-action@master
-      #   if: always()
-      #   with:
-      #     allure_results: POM_Automation/allure-results
-      #     gh_pages: gh-pages-history
-      #     allure_report: allure-report-ui
-      #     allure_history: allure-history-ui
-      #     keep_reports: 20
-
-      # GENERATE API REPORT
       - name: Generate API Report
         uses: simple-elf/allure-report-action@master
         if: always()
@@ -90,24 +96,21 @@ jobs:
           keep_reports: 20
 
       # ----------------------------------------------------------------
-      # PART D: CONSOLIDATE & DEPLOY (FIXED FOR 404 ERROR ✅)
+      # PART D: CONSOLIDATE & DEPLOY
       # ----------------------------------------------------------------
       - name: Prepare Site Structure
         if: always()
         run: |
           mkdir -p _site/api-report
           
-          # 1. Copy LATEST UI Report (If exists) - kept to preserve old site
-          # Since we skipped UI tests, we try to copy OLD history if current report missing
+          # UI Report (Preserve Old)
           if [ -d "allure-report-ui" ]; then 
             cp -r allure-report-ui/* _site/
           elif [ -d "gh-pages-history" ]; then
-            # Fallback: Copy the old site content so the root link doesn't break entirely
             cp -r gh-pages-history/* _site/ || true
           fi
           
-          # 2. Copy LATEST API Report to Subfolder (FIXES 404)
-          # We copy the REPORT, not the history, to the serving folder
+          # API Report (New)
           if [ -d "allure-report-api" ]; then cp -r allure-report-api/* _site/api-report/; fi
 
       - name: Deploy Unified Site to GitHub Pages
